@@ -1,0 +1,9 @@
+Try to console the negation of the if and then you will get:
+b - 2a = 1, c- a = 2, b - c = 5
+
+solving the eq and get a = 6 b = 13 and c = 8
+
+call the argue function and you will get the flag
+
+
+Arkav7{1t5_pun1hm3n7_t1m3}

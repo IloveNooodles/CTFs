@@ -1,0 +1,3 @@
+change first 2 byte to png header
+
+CTF{mejik_hederrrr}

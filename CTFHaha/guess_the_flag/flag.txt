@@ -1,0 +1,3 @@
+Use decompiler like ghidra / ida / debugger and find all the possible flag
+
+CTF{tHi5_1s_fla6}

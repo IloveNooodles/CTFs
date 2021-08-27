@@ -1,0 +1,2 @@
+Just strings tebak
+CTF{yahh_tertebak_dech}
