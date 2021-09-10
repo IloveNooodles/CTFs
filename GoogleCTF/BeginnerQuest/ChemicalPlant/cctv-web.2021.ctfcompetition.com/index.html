@@ -1,0 +1,122 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CCTV</title>
+  <style>
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: monospace;
+  font-size: 1.25em;
+}
+
+.outer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  background: rgb(78,78,78);
+  background: linear-gradient(0deg, rgba(78,78,78,1) 22%, rgba(34,34,34,1) 93%);
+  height: 2em;
+}
+
+.top div {
+  padding: 0.1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-color: #333333;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.panel {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 25%;
+  height: 25%;
+  background: rgb(78,78,78);
+  background: linear-gradient(0deg, rgba(78,78,78,1) 22%, rgba(34,34,34,1) 93%);
+  border: 1px solid black;
+  color: white;
+}
+
+.bottom {
+  background: rgb(78,78,78);
+  background: linear-gradient(0deg, rgba(78,78,78,1) 22%, rgba(34,34,34,1) 93%);
+  height: 2em;
+}
+
+.bottom div {
+  padding: 0.4em;
+  font-weight: bold;
+  color: white;
+}
+
+button {
+  color: white;
+  background: linear-gradient(0deg, rgba(78,78,78,1) 22%, rgba(34,34,34,1) 93%);
+}
+  </style>
+</head>
+<body>
+  <div class="outer">
+    <div class="top"><div>Industrial CCTV by YesWeAreSecure&trade;</div></div>
+    <div class="container">
+      <div class="panel">
+        <p>Password:</p>
+        <input id="password">
+        <p><button id="go">Log in</button></p>
+      </div>
+    </div>
+    <div class="bottom"><div>Use the panel to log in.</div></div>
+  </div>
+</body>
+<script>
+const checkPassword = () => {
+  const v = document.getElementById("password").value;
+  const p = Array.from(v).map(a => 0xCafe + a.charCodeAt(0));
+
+  if(p[0] === 52037 &&
+     p[6] === 52081 &&
+     p[5] === 52063 &&
+     p[1] === 52077 &&
+     p[9] === 52077 &&
+     p[10] === 52080 &&
+     p[4] === 52046 &&
+     p[3] === 52066 &&
+     p[8] === 52085 &&
+     p[7] === 52081 &&
+     p[2] === 52077 &&
+     p[11] === 52066) {
+    window.location.replace(v + ".html");
+  } else {
+    alert("Wrong password!");
+  }
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("go").addEventListener("click", checkPassword);
+  document.getElementById("password").addEventListener("keydown", e => {
+    if (e.keyCode === 13) {
+      checkPassword();
+    }
+  });
+}, false);
+</script>
+</html>

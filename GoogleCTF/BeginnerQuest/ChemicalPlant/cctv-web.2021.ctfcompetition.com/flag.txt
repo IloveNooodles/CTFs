@@ -1,0 +1,4 @@
+use js to rev eng the algorithm then find the password
+the password will be GoodPassword
+
+CTF{IJustHopeThisIsNotOnShodan}

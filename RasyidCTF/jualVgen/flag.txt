@@ -1,0 +1,2 @@
+Gunakan vignere cipher dengan key FLAG
+CTFR{v1gn3r3_c1ph3r!!!}
