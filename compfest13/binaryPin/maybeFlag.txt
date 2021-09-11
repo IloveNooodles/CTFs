@@ -1,0 +1,10 @@
+An Indonesian adaptation of the System Usability Scale (SUS)
+
+http://dl2.cs.ui.ac.id/
+
+COMPFEST13{dl2.cs.ui.ac.id_kumiantotrilaksono}
+scele.cs.ui.ac.id
+
+Joseph Adrianus Maryadi
+
+COMPFEST13{scele.cs.ui.ac.id_josephadrianusmaryadi}

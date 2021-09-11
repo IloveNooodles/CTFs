@@ -1,0 +1,5 @@
+My senior has created a web application that helps University of Indonesia students to manage class schedules. But when I visited his account, the web application repository was not listed in his profile. However, I see clearly that he is the first developer.
+
+Not long after creating the web application, he developed a new project with his friends. This project was submitted into a competition and won a medal. Find out the name of the project and the competition!
+
+You must write the project and competition name in lower case without space. Submit your answer using this format: COMPFEST13{<project>_<competition>}

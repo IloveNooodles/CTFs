@@ -1,0 +1,4 @@
+write gimme "+"secret
+
+
+COMPFEST13{s4nDB0x3d_w41fUu_n3VeR_46a1N_c779251ea6}

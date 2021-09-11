@@ -1,0 +1,2 @@
+65537
+[b"#Snab says good job! But you're not done yet\n", b'flag = findme\n', b"halfa = ''.join([flag[i] for i in range (0, len(flag), 2)])\n", b"halfb = ''.join([flag[i] for i in range (1, len(flag), 2)]\n", b"p = bytes_to_long(bytes(halfa, encoding = 'utf-8'))\n", b"q = bytes_to_long(bytes(halfb, encoding = 'utf-8'))\n", b'r = 0\n', b'while (not(isPrime(p) and isPrime(q))):\n', b'    p += 1\n', b'    q += 1\n', b'    r += 1\n']

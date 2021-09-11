@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Sep 11 16:25:16 2021
+Invocation: foremost Flag.jpg 
+Output directory: /mnt/d/Coding/CTFs/compfest13/naomiGivesNoises/naomi-gives-noises-master-public/public/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: Flag.jpg
+Start: Sat Sep 11 16:25:16 2021
+Length: 85 KB (87092 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	      85 KB 	          0 	 
+Finish: Sat Sep 11 16:25:16 2021
+
+1 FILES EXTRACTED
+	
+jpg:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Sep 11 16:25:16 2021
