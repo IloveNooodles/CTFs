@@ -1,0 +1,3 @@
+inspect element and go to local storage
+
+CTFR{l0c4l_st0r4g3_1s_u5efu11}

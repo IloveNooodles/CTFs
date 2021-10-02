@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Sep 25 18:04:54 2021
+Invocation: foremost findme.png 
+Output directory: /mnt/d/Coding/CTFs/Slashroot CTF 5.0/find/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: findme.png
+Start: Sat Sep 25 18:04:55 2021
+Length: 33 KB (33856 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	       9 KB 	          0 	  (683 x 384)
+1:	00000018.png 	      23 KB 	       9569 	  (683 x 384)
+Finish: Sat Sep 25 18:04:55 2021
+
+2 FILES EXTRACTED
+	
+png:= 2
+------------------------------------------------------------------
+
+Foremost finished at Sat Sep 25 18:04:55 2021
