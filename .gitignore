@@ -1,2 +1,5 @@
 utils
 *.out
+*.exe
+pwn_fstring.py
+pwn_template.py

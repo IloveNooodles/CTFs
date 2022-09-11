@@ -2,12 +2,25 @@ import sys
 import base64
 from Crypto.Util.number import *
 from pwn import *
+import requests
+import json
 
-def bxor(b1, b2):
-  ans = b''
-  for (a, b) in zip(b1, b2):
-    ans += bytes([a^b])
-  return ans
+# HOST = "socket.cryptohack.org" 
+# PORT = 11112
+
+# p = remote(HOST, PORT)
+
+# data = {"buy" : "flag"}
+
+# p.recvuntil("ok.")
+# p.send(json.dumps(data))
+# p.interactive()
+
+# def bxor(b1, b2):
+#   ans = b''
+#   for (a, b) in zip(b1, b2):
+#     ans += bytes([a^b])
+#   return ans
 
 # #1
 # # import this
@@ -68,9 +81,10 @@ def bxor(b1, b2):
 # for i in range(1, 255):
 #   if b"crypto" in xor(s, i):
 #     print(xor(s, i))
+  
 
 #9
-s = "0e0b213f26041e480b26217f27342e175d0e070a3c5b103e2526217f27342e175d0e077e263451150104"
-s = bytes.fromhex(s)
-key = b'myXORkey'
-print(xor(s, key))
+# s = "0e0b213f26041e480b26217f27342e175d0e070a3c5b103e2526217f27342e175d0e077e263451150104"
+# s = bytes.fromhex(s)
+# key = b'myXORkey'
+# print(xor(s, key))
