@@ -1,0 +1,1 @@
+CTF{yet_another_way_to_hide_a_file_in_a_file}

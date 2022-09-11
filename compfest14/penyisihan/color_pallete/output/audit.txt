@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Sep  3 16:50:32 2022
+Invocation: foremost coming_soon_colorfest.png 
+Output directory: /home/ubuntu/Desktop/CTFs/compfest14/penyisihan/color_pallete/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: coming_soon_colorfest.png
+Start: Sat Sep  3 16:50:32 2022
+Length: 131 KB (135023 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	     131 KB 	          0 	  (1748 x 1240)
+Finish: Sat Sep  3 16:50:32 2022
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Sep  3 16:50:32 2022

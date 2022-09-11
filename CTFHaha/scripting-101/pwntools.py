@@ -1,29 +1,22 @@
 # Import the pwntools library
 # You can install this via pip install pwntools
+# nc 103.41.205.26 10075
 from pwn import *
 
 # To process local files
 # r = process('./filename')
 
 # To connect to a remote server via nc
-r = remote('13.228.30.172', 10075)
+r = remote('103.41.205.26', 10075)
 
-# To receive a line of data (until it finds \n)
-data = r.recvline()
+r.recvline()
+while(True):
+  try:    
+    data = r.recvuntil(b"=").decode()
+    data = data.split("=")
+    print(data[0])
+    ans = eval(data[0])
+    r.sendline(str(ans).encode("latin-1"))
+  except:
+    r.interactive()
 
-# To receive data until it finds '='
-data = r.recvuntil('=')
-
-# Processing the question
-question = data[:-2]
-
-# ...
-
-# Producing the answer
-answer = '1337'
-
-# To send input '1337' to the remote server
-r.sendline(answer)
-
-# To continue the connection interactively (just like using command-line nc)
-r.interactive()

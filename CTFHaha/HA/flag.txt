@@ -1,0 +1,1 @@
+CTF{spelling_is_fun_substitution_cipher}

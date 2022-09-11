@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Aug 21 03:28:31 2022
+Invocation: foremost trash.png 
+Output directory: /home/gawrgare/CTFs/CTFHaha/trashbinwalk/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: trash.png
+Start: Sun Aug 21 03:28:31 2022
+Length: 213 KB (218994 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	     211 KB 	          0 	  (407 x 474)
+1:	00000423.png 	       2 KB 	     216714 	  (381 x 62)
+Finish: Sun Aug 21 03:28:31 2022
+
+2 FILES EXTRACTED
+	
+png:= 2
+------------------------------------------------------------------
+
+Foremost finished at Sun Aug 21 03:28:31 2022
