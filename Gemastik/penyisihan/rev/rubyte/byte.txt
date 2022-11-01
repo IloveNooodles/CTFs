@@ -1,0 +1,30 @@
+== disasm: #<ISeq:<compiled>@<compiled>:1 (1,0)-(1,99)> (catch: FALSE)
+0000 putself                                                          (   1)[Li]
+0001 opt_getinlinecache           8, <is:0>
+0004 getconstant                  :File
+0006 opt_setinlinecache           <is:0>
+0008 putstring                    "flag"
+0010 opt_send_without_block       <callinfo!mid:read, argc:1, ARGS_SIMPLE>, <callcache>
+0013 putstring                    "H*"
+0015 opt_send_without_block       <callinfo!mid:unpack, argc:1, ARGS_SIMPLE>, <callcache>
+0018 putobject_INT2FIX_0_
+0019 opt_aref                     <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0022 putobject                    16
+0024 opt_send_without_block       <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0027 opt_getinlinecache           34, <is:1>
+0030 getconstant                  :File
+0032 opt_setinlinecache           <is:1>
+0034 putstring                    "flag"
+0036 opt_send_without_block       <callinfo!mid:read, argc:1, ARGS_SIMPLE>, <callcache>
+0039 putstring                    "H*"
+0041 opt_send_without_block       <callinfo!mid:unpack, argc:1, ARGS_SIMPLE>, <callcache>
+0044 putobject_INT2FIX_0_
+0045 opt_aref                     <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0048 putobject                    16
+0050 opt_send_without_block       <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0053 putobject_INT2FIX_1_
+0054 opt_send_without_block       <callinfo!mid:>>, argc:1, ARGS_SIMPLE>, <callcache>
+0057 opt_send_without_block       <callinfo!mid:^, argc:1, ARGS_SIMPLE>, <callcache>
+0060 opt_send_without_block       <callinfo!mid:puts, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0063 leave
+
