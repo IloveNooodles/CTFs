@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Oct 23 12:09:46 2022
+Invocation: foremost file.jpg 
+Output directory: /mnt/d/Coding/CTFs/Gemastik/foren/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: file.jpg
+Start: Sun Oct 23 12:09:46 2022
+Length: 17 KB (18052 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	      13 KB 	          0 	 
+1:	00000027.jpg 	       3 KB 	      14153 	 
+Finish: Sun Oct 23 12:09:46 2022
+
+2 FILES EXTRACTED
+	
+jpg:= 2
+------------------------------------------------------------------
+
+Foremost finished at Sun Oct 23 12:09:46 2022
