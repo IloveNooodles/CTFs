@@ -1,0 +1,50 @@
+fungsi():
+        push    rbp
+        mov     rbp, rsp
+        mov     DWORD PTR [rbp-4], 20 # rbp - 4 = 20
+        mov     DWORD PTR [rbp-8], 10 # rbp - 8 = 10
+        mov     DWORD PTR [rbp-12], 20 # rbp - 12 = 20
+        mov     eax, DWORD PTR [rbp-4] # eax = 20
+        imul    eax, DWORD PTR [rbp-8] # eax = 20 * 10 = 200
+        lea     ecx, [rax+2] -> # eax = 200 + 2 = 202
+        mov     eax, DWORD PTR [rbp-12] # eax = 20
+        mov     edx, eax -> # edx = 20
+        sal     eax, 2 -> # eax = 80
+        sub     edx, eax -> # edx = -60 & 0xffffffff (32bit) = 0xffffffc4 
+        lea     eax, [rcx+rdx] # eax = 202 - 60 = 142
+        mov     DWORD PTR [rbp-16], eax # rbp-16 = 142
+        sal     DWORD PTR [rbp-16], 20 # rbp - 16 = 148897792
+        cmp     DWORD PTR [rbp-16], 100000000 # its greater so go to L2
+        jg      .L2
+        mov     eax, DWORD PTR [rbp-16]
+        lea     edx, [rax+3]
+        test    eax, eax
+        cmovs   eax, edx
+        sar     eax, 2
+        mov     DWORD PTR [rbp-16], eax
+        jmp     .L3
+.L2:
+        cmp     DWORD PTR [rbp-16], 100000000 # Still greater
+        jle     .L4
+        cmp     DWORD PTR [rbp-16], 500000000 # < 500000000 so continue
+        jg      .L4
+        mov     eax, DWORD PTR [rbp-16] # eax = 148897792
+        lea     edx, [rax+7], # edx = 148897792 + 7
+        test    eax, eax # eax = 0
+        cmovs   eax, edx # eax = 0 so skip cmovs
+        sar     eax, 3 # eax = 18612224
+        mov     DWORD PTR [rbp-16], eax # rbp-16 = 18612224
+        jmp     .L3 # GOTO .L3
+.L4:
+        mov     eax, DWORD PTR [rbp-16]
+        mov     edx, eax
+        shr     edx, 31
+        add     eax, edx
+        sar     eax
+        mov     DWORD PTR [rbp-16], eax
+.L3:
+        nop
+        pop     rbp
+        Ret # 18612224
+
+Flag: NCW22{18612224}
