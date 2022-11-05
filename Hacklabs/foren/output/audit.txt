@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Nov  5 06:48:17 2022
+Invocation: foremost riffle 
+Output directory: /home/gawrgare/Desktop/CTFs/Hacklabs/foren/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: riffle
+Start: Sat Nov  5 06:48:20 2022
+Length: 473 KB (484493 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Sat Nov  5 06:48:20 2022
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Sat Nov  5 06:48:20 2022
