@@ -1,0 +1,25 @@
+version: "3"
+services:
+  webapp:
+    restart: always
+    build:
+      context: webapp/
+    ports:
+      - 8001:8001
+    networks:
+      - internals
+  
+  worker:
+    restart: always
+    environment:
+      - FLAG=FLAG{TestFlag}
+    depends_on:
+      - webapp
+    build:
+      context: worker/
+    networks:
+      - internals
+
+networks:
+  internals:
+    driver: bridge

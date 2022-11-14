@@ -1,0 +1,32 @@
+version: "3"
+services:
+  webapp:
+    restart: always
+    environment:
+      - FLAG=FLAG{TestFlag}
+      - PYTHONUNBUFFERED=1
+    build:
+      context: webapp/
+    ports:
+      - 8000:8000
+    networks:
+      internals:
+        ipv4_address: 172.10.0.68
+  
+  worker:
+    restart: always
+    depends_on:
+      - webapp
+    build:
+      context: worker/
+    ports:
+      - 7999:7999
+    networks:
+      internals:
+        ipv4_address: 172.10.0.69
+
+networks:
+  internals:
+    ipam:
+      config:
+        - subnet: 172.10.0.0/24

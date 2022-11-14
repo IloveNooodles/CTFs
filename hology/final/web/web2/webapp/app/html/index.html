@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Stargazer</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'nonce-{{nonce}}'">
+    <link href="./static/bootstrap.css" rel="stylesheet">
+    <link href="./static/main.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+    <main class="text-xs-center bg-inverse bg-glow-center">
+        <div class="container">
+            <h1 class="display-1" id="cover">Heart of Sirius</h1>
+            <p><input type="text" id="change_cover" placeholder="Change me!"></p>
+        </div>
+    </main>
+    <script nonce="{{nonce}}">
+        document.location.hash = "";
+        let inp = document.getElementById('change_cover')
+        let cover = document.getElementById('cover')
+        inp.onchange = () => {
+            document.location.hash = inp.value
+        };
+        
+        window.onhashchange = () => {
+            if (document.location.hash){
+                cover.innerHTML = decodeURIComponent(document.location.hash.slice(1));
+            }
+            document.location.hash = "";
+        };
+    </script>
+</body>
+</html>
