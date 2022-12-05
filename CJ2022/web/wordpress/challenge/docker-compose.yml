@@ -1,0 +1,27 @@
+version: '2'  
+services:  
+  wp_service_1:
+    depends_on:
+      - wp_service_1_db
+    volumes:
+      - ./wordpress:/var/www/html
+    build: .
+    ports:
+      - 8686:80
+
+  wp_service_1_db:
+    image: mysql:5.7
+    restart: always
+    env_file: .env
+
+  wp_service_1_toolbox:
+    build: ./docker/wordpress/toolbox/
+    volumes:
+      - ./wordpress:/var/www/wordpress
+    working_dir: /var/www/wordpress
+    depends_on:
+      - wp_service_1_db
+    env_file: .env
+
+
+
