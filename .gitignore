@@ -1,4 +1,6 @@
+.gdb_history
 utils
+core
 *.out
 *.exe
 *.apk
