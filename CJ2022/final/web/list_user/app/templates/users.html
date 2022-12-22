@@ -1,0 +1,12 @@
+<html>
+  <h1>List all users</h1>
+  {% if sorted %}
+    {% for item in users|dictsort:sorted %}
+    <li> user: {{ item.user.username }}, email: {{ item.user.email }}, hobby: {{ item.user.hobby }}</li>
+    {% endfor %}
+  {% else %}
+    {% for item in users %}
+      <li> user: {{ item.user.username }}, email: {{ item.user.email }}, hobby: {{ item.user.hobby }}</li>
+    {% endfor %}
+  {% endif %}
+</html>

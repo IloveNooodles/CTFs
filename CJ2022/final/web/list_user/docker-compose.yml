@@ -1,0 +1,14 @@
+version: "3.2"
+   
+services:
+  luaas_web:
+    restart: on-failure
+    build:
+      context: ./conf
+      dockerfile: ./Dockerfile
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./app:/app
+    ports:
+      - "7979:8000"
+

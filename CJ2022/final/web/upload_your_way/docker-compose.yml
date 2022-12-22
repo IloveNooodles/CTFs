@@ -1,0 +1,17 @@
+version: '3.2'
+services:
+    uyw_web:
+        build: .
+        ports:
+        - "9393:80"
+        restart: always
+    
+    uyw_bot:
+        build:
+            context: .
+            dockerfile: Dockerfile.bot
+        depends_on:
+            - uyw_web
+        ports:
+            - "3131:3000"
+        restart: on-failure

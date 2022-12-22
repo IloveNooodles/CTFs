@@ -1,0 +1,16 @@
+{
+  "name": "Code Editor - Cyber Jawara",
+  "productName": "Code Editor CJ22 -  Kang Ali",
+  "description": "Code Editor - Cyber Jawara",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Kang Ali",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "20.1.4"
+  }
+}

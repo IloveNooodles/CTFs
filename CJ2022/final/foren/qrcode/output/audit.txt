@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Dec 21 14:07:07 2022
+Invocation: foremost qrcode.png 
+Output directory: /mnt/d/COding/CTFs/CJ2022/final/foren/qrcode/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: qrcode.png
+Start: Wed Dec 21 14:07:07 2022
+Length: 22 KB (22597 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	      22 KB 	          0 	  (725 x 725)
+Finish: Wed Dec 21 14:07:07 2022
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Wed Dec 21 14:07:08 2022

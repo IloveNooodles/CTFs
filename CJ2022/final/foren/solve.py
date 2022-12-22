@@ -1,0 +1,3 @@
+import zlib
+
+s = ""

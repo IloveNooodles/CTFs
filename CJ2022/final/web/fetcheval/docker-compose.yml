@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  node:
+    build:
+      dockerfile: node/Dockerfile
+      context: .
+    restart: unless-stopped
+    ports:
+      - "0.0.0.0:1337:1337"
