@@ -1,0 +1,5 @@
+FROM pwn.red/jail
+COPY --from=ubuntu:latest / /srv
+COPY ./src/chall /srv/app/run
+COPY logo /srv/app
+COPY flag.txt /srv/app
