@@ -1,0 +1,10 @@
+FROM denoland/deno:alpine
+
+WORKDIR /app
+COPY . .
+RUN apk add socat
+RUN deno cache main.ts
+
+USER 404:404
+
+CMD socat tcp-l:5000,reuseaddr,fork EXEC:"deno run --allow-all main.ts",stderr

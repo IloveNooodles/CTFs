@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Tue Jan 10 13:37:22 2023
+Invocation: foremost a.zip 
+Output directory: /mnt/d/Coding/CTFs/TCP1P/forensic/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: a.zip
+Start: Tue Jan 10 13:37:22 2023
+Length: 28 KB (28946 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.zip 	      192 B 	          0 	 
+1:	00000000.png 	      28 KB 	        192 	  (1280 x 720)
+Finish: Tue Jan 10 13:37:22 2023
+
+2 FILES EXTRACTED
+	
+zip:= 1
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Tue Jan 10 13:37:22 2023

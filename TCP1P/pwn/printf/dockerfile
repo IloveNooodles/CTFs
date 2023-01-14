@@ -1,0 +1,11 @@
+FROM ubuntu:latest AS baseimage
+
+WORKDIR /app
+
+COPY ./chall.c++ .
+COPY ./src/chall ./run
+COPY logo .
+COPY flag.txt .
+
+FROM pwn.red/jail
+COPY --from=baseimage / /srv
