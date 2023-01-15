@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3000:8000"

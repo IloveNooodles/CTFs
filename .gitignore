@@ -4,3 +4,4 @@ core
 *.out
 *.exe
 *.apk
+*.pyc
