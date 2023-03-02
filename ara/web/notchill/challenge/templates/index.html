@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="flex w-full h-screen bg-[url('https://pbs.twimg.com/media/Ea46atnUcAUVYme?format=jpg&name=4096x4096')] bg-cover justify-center justify-center font-mono p-20">
+        <div class="text-neutral-900">
+            <div class="m-auto w-fit text-center backdrop-blur-lg p-7 border-2 border-sky-300 rounded-lg h-fit">
+                <img class="m-auto" src="https://image.shinycolors.wiki/thumb/6/64/Noctchill-Logo.png/1200px-Noctchill-Logo.png?20210123134226" width="200px" alt="">
+                <h1 class="font-bold">Welcome to my noctchill database!</h1>
+                <h1 class="font-bold">Who is your favorite idol? :3</h1>
+            </div>
+            <div class="grid grid-cols-4 mt-4 gap-4">
+                <a href="/hinana">
+                    <div>
+                        <div class="text-center backdrop-blur-lg p-0 border-2 border-sky-300 rounded-lg h-36 w-36">
+                            <img src="https://image.shinycolors.wiki/a/a9/HinanaProfile.png" alt="Hinana">
+                        </div>
+                        <h1 class="text-center font-bold">Hinana</h1>
+                    </div>
+                </a>
+                <a href="/toru">
+                    <div>
+                        <div class="text-center backdrop-blur-lg p-0 border-2 border-sky-300 rounded-lg h-36 w-36">
+                            <img src="https://image.shinycolors.wiki/2/2d/ToruProfile.png">
+                        </div>
+                        <h1 class="text-center font-bold">Toru</h1>
+                    </div>
+                </a>
+                <a href="/madoka">
+                    <div>
+                        <div class="text-center backdrop-blur-lg p-0 border-2 border-sky-300 rounded-lg h-36 w-36">
+                            <img src="https://image.shinycolors.wiki/9/91/MadokaProfile.png">
+                        </div>
+                        <h1 class="text-center font-bold">Madoka</h1>
+                    </div>
+                </a>
+                <a href="/koito">
+                    <div>
+                        <div class="text-center backdrop-blur-lg p-0 border-2 border-sky-300 rounded-lg h-36 w-36">
+                            <img src="https://image.shinycolors.wiki/8/85/KoitoProfile.png">
+                        </div>
+                        <h1 class="text-center font-bold">Koito</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+{% endblock %}

