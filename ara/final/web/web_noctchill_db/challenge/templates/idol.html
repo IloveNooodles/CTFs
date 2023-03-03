@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="flex w-full h-screen bg-[url('https://pbs.twimg.com/media/Ea46atnUcAUVYme?format=jpg&name=4096x4096')] bg-cover items-center justify-center font-mono p-20">
+        <div class="flex gap-24 text-neutral-900 items-center">
+            <div class="w-60 h-60 backdrop-blur-xl rounded-xl border-2 border-sky-300">
+                <img src="{{ data['picture'] }}" alt="">
+                <h1 class="text-center font-black text-xl">{{ data["name"] }}</h1>
+            </div>
+            <div class="backdrop-blur-lg rounded-xl border-2 border-sky-300 p-7 w-[30rem] h-fit">
+                <h1 class="text-center mb-3 font-bold">Data</h1>
+                <div class="grid grid-cols-2 gap-2">
+                    <h1>Name:</h1>
+                    <h1>{{ data["fullname"] }}</h1>
+    
+                    <h1>Age:</h1>
+                    <h1>{{ data["age"] }}</h1>
+    
+                    <h1>Height:</h1>
+                    <h1>{{ data["height"] }}</h1>
+    
+                    <h1>Weight:</h1>
+                    <h1>{{ data["weight"] }}</h1>
+
+                    <h1>Birthday:</h1>
+                    <h1>{{ data["birthday"] }}</h1>
+
+                    <h1>Blood type:</h1>
+                    <h1>{{ data["blood_type"] }}</h1>
+
+                    <h1>Hobbies:</h1>
+                    <h1>{{ data["hobbies"] }}</h1>
+
+                    <h1>Skills:</h1>
+                    <h1>{{ data["skills"] }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

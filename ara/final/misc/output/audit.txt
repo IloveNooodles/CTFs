@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Feb 25 21:12:28 2023
+Invocation: foremost Truth.pdf 
+Output directory: /mnt/d/Coding/CTFs/ara/final/misc/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: Truth.pdf
+Start: Sat Feb 25 21:12:28 2023
+Length: 22 KB (22609 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.pdf 	      21 KB 	          0 	 
+Finish: Sat Feb 25 21:12:28 2023
+
+1 FILES EXTRACTED
+	
+pdf:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Feb 25 21:12:28 2023
