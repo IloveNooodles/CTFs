@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@2.4.3/dist/purify.min.js"></script>
+    <link rel="stylesheet" href="static/style.css">
+    <base id="base" href="<%= base %>">
+</head>
+
+<body>
+    <section id="section" class="h-screen w-screen p-5 max-h-[30rem]">
+        <div class="h-[35%]">
+            <form class="flex flex-col h-full gap-3">
+                <label class="self-center text-2xl" for="code">HTML CODE</label>
+                <textarea class="resize-none self-center h-full w-full p-2 border-white border" name="code" id="code"></textarea>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+        <div id="box" class="h-[95%] border-white border mt-3 p-2"></div>
+    </section>
+    <script>
+        const url = new URL(document.URL)
+        const code = url.searchParams.get("code")
+        const textarea = document.getElementById("code")
+        textarea.value = code
+        if (code) {
+            window.box.innerHTML = DOMPurify.sanitize(code)
+        }
+        window.onload = () => {
+            const script = document.createElement("script")
+            script.src = window.base.href + "static/footer.js"
+            script.defer = ''
+            document.getElementById("box").appendChild(script)
+        }
+    </script>
+</body>
+
+</html>

