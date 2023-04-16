@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Apr  9 11:09:08 2023
+Invocation: foremost images.jpeg 
+Output directory: /mnt/d/Coding/CTFs/JCTF/warmup/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: images.jpeg
+Start: Sun Apr  9 11:09:08 2023
+Length: 4 KB (4596 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Sun Apr  9 11:09:08 2023
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Sun Apr  9 11:09:09 2023
