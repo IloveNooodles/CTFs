@@ -1,5 +1,6 @@
 from pwn import *
 
+CONN = ""
 HOST = ""
 PORT = ""
 
