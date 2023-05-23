@@ -1,0 +1,33 @@
+int main() {
+    char flag[] = "REDACTED";
+    int len = sizeof(flag) - 1;
+    shuffle(flag, len);
+
+    if (len % 8 == 0) {
+        char A[(len / 4) + 1], B[(len / 4) + 1], C[(len / 4) + 1], D[(len / 4) + 1];
+        separate(flag, A, B, C, D, len);
+
+        int lenA = sizeof(A) - 1;
+        int lenB = sizeof(B) - 1;
+        int lenC = sizeof(C) - 1;
+        int lenD = sizeof(D) - 1;
+
+        shift(A, lenA, 2);
+        shift(B, lenB, 1);
+        shift(C, lenC, -2);
+        shift(D, lenD, 3);
+
+        int finallen = lenA + lenB + lenC + lenD;
+
+        char finalflag[finallen + 1];
+        merging(A, B, C, D, lenA, lenB, lenC, lenD, finalflag, finallen);
+
+        printf("\nfinal flagnya: ");
+        for (int i = 0; i < finallen; i++) {
+            printf("%c", finalflag[i]);
+        }
+    } else {
+        printf("Masukan kelipatan kalimat dengan jumlah kelipatan 8");
+    }
+    return 0;
+}
