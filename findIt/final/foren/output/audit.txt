@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri Jun  2 12:54:31 2023
+Invocation: foremost image.png 
+Output directory: /mnt/d/Coding/CTFs/findIt/final/foren/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: image.png
+Start: Fri Jun  2 12:54:31 2023
+Length: 128 KB (131240 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	     128 KB 	          0 	  (619 x 563)
+Finish: Fri Jun  2 12:54:31 2023
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Fri Jun  2 12:54:31 2023
