@@ -1,1 +1,0 @@
-flag.zip/flag3:$zip2$*0*3*0*f27b2896e46214f2f1de3505294e6a16*558d*15*bd61f8a449c01d58b340cac2bbde71f3e5e5cf9a50*e090011b805eb9b65180*$/zip2$:flag3:flag.zip:flag.zip
