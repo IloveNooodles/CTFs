@@ -4,6 +4,24 @@ CONN = "".split(" ")
 HOST = CONN[1]
 PORT = CONN[2]
 
+# ===========================================================
+#                    WRAPPER FUNCTION
+# ===========================================================
+
+def sl(x): io.sendline(x)
+def sla(x, y): io.sendlineafter(x, y)
+def se(x): io.send(x)
+def sa(x, y): io.sendafter(x, y)
+def ru(x, drop=False): return io.recvuntil(x, drop=drop)
+def rl(): return io.recvline()
+def cl(): io.clean()
+def un64(x): return u64(x.ljust(8, b'\x00'))
+def leak(name, addr): info(f"{name} @ {hex(addr)}")
+
+# ===========================================================
+#                           SETUP
+# ===========================================================
+
 # Allows you to switch between local/GDB/remote from terminal
 def start(argv=[], *a, **kw):
     if args.GDB:  # Set GDBscript below
@@ -32,15 +50,19 @@ rop = ROP(elf)
 context.terminal = "tmux splitw -h".split(" ")
 context.log_level = "debug"
 
+# Lib-C library, can use pwninit/patchelf to patch binary
+libc = elf.libc
+# ld = ELF("/lib64/ld-linux-x86-64.so.2", checksec=False)
+
+if args.REMOTE:
+    pass
+    # libc = ELF("/lib/x86_64-linux-gnu/libc.so.6", checksec=False)
+    # ld = ELF("/lib64/ld-linux-x86-64.so.2", checksec=False)
+
 # ===========================================================
 #                    EXPLOIT GOES HERE
 # ===========================================================
 
-# Lib-C library, can use pwninit/patchelf to patch binary
-libc = ELF("/lib/x86_64-linux-gnu/libc.so.6", checksec=False)
-ld = ELF("/lib64/ld-linux-x86-64.so.2", checksec=False)
-
-# Pass in pattern_size, get back EIP/RIP offset
 offset = 64
 
 # Start program
@@ -50,8 +72,8 @@ io = start()
 payload = flat({offset: []})
 
 # Send the payload
-io.sendlineafter(b">", payload)
-io.recvuntil(b"Thank you!")
+sla(b"> ", payload)
+ru(b"Thank you!")
 
 # Got Shell?
 io.interactive()
