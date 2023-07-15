@@ -1,0 +1,30 @@
+0xffffa09fb9f191c8                    598493 /home/udin/.thunderbird
+0xffffa09fb98477c0                    596520 /home/udin/.thunderbird/profiles.ini
+0xffffa09fb98a9600                    598494 /home/udin/.thunderbird/Crash Reports
+0xffffa09fb98a80e8                    596512 /home/udin/.thunderbird/Crash Reports/InstallTime20230503190012
+0xffffa09fb994c0e8                    598498 /home/udin/.thunderbird/rgah6ny2.default-release
+0xffffa09fb70537c0                    597051 /home/udin/.thunderbird/rgah6ny2.default-release/formhistory.sqlite
+0xffffa09fb703c958                    596530 /home/udin/.thunderbird/rgah6ny2.default-release/storage.sqlite
+0xffffa09fb774d1c8                    597238 /home/udin/.thunderbird/rgah6ny2.default-release/abook.sqlite-wal
+0xffffa09fb774ef50                    596540 /home/udin/.thunderbird/rgah6ny2.default-release/abook.sqlite
+0xffffa09fb774d600                    596547 /home/udin/.thunderbird/rgah6ny2.default-release/history.sqlite-wal
+0xffffa09fb774e2a8                    596542 /home/udin/.thunderbird/rgah6ny2.default-release/history.sqlite
+0xffffa09fb77ac520                    596551 /home/udin/.thunderbird/rgah6ny2.default-release/global-messages-db.sqlite
+0xffffa09fb7035e70                    596536 /home/udin/.thunderbird/rgah6ny2.default-release/permissions.sqlite
+0xffffa09fb779a6e0                    596528 /home/udin/.thunderbird/rgah6ny2.default-release/key4.db
+0xffffa09fb7799e70                    596526 /home/udin/.thunderbird/rgah6ny2.default-release/cert9.db
+0xffffa09fb7035600                    596549 /home/udin/.thunderbird/rgah6ny2.default-release/cookies.sqlite-wal
+0xffffa09fb7777388                    596525 /home/udin/.thunderbird/rgah6ny2.default-release/cookies.sqlite
+0xffffa09fb77751c8                    596521 /home/udin/.thunderbird/rgah6ny2.default-release/.parentlock
+0xffffa09fb994c520                    598518 /home/udin/.thunderbird/rgah6ny2.default-release/calendar-data
+0xffffa09fb770f7c0                    597250 /home/udin/.thunderbird/rgah6ny2.default-release/calendar-data/local.sqlite-wal
+0xffffa09fb774e6e0                    596545 /home/udin/.thunderbird/rgah6ny2.default-release/calendar-data/local.sqlite
+0xffffa09fb994f7c0                    598524 /home/udin/.thunderbird/rgah6ny2.default-release/ImapMail
+0xffffa09fb994e6e0                    598525 /home/udin/.thunderbird/rgah6ny2.default-release/ImapMail/outlook.office365.com
+0xffffa09fb7035a38                    596585 /home/udin/.thunderbird/rgah6ny2.default-release/ImapMail/outlook.office365.com/INBOX.msf
+0xffffa09fb9846b18                    598497 /home/udin/.cache/thunderbird
+0xffffa09fb98480e8                    598499 /home/udin/.cache/thunderbird/rgah6ny2.default-release
+               0x0                           /home/udin/.cache/thunderbird/rgah6ny2.default-release/.startup-incomplete
+0xffffa09fb9ce3388                    789565 /usr/lib/thunderbird
+0xffffa09fb7738958                    837108 /usr/lib/thunderbird/thunderbird
+0xffffa09fb70300e8                    136268 /usr/lib/thunderbird/fonts/TwemojiMozilla.ttf

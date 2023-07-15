@@ -1,0 +1,168 @@
+systemd              1
+.systemd-journal     371
+.lvmetad             394
+.systemd-udevd       397
+.systemd-resolve     445             101
+.dbus-daemon         496             103
+.ModemManager        500
+.wpa_supplicant      502
+.avahi-daemon        503             116
+..avahi-daemon       510             116
+.systemd-logind      508
+.udisksd             511
+.kerneloops          512             107
+.rsyslogd            516             102
+.acpid               517
+.accounts-daemon     528
+.cron                536
+.networkd-dispat     544
+.NetworkManager      552
+..dhclient           729
+.kerneloops          571             107
+.polkitd             606
+.VBoxService         701
+.lightdm             973
+..Xorg               989
+..lightdm            1001
+...cinnamon-sessio   1017            1000
+....ssh-agent        1118            1000
+....csd-xsettings    1176            1000
+....csd-mouse        1177            1000
+....csd-a11y-keyboa  1178            1000
+....csd-sound        1179            1000
+....csd-automount    1181            1000
+....csd-wacom        1182            1000
+....csd-cursor       1183            1000
+....csd-screensaver  1188            1000
+....csd-color        1192            1000
+....csd-media-keys   1193            1000
+....csd-clipboard    1194            1000
+....csd-print-notif  1195            1000
+....csd-orientation  1202            1000
+....csd-power        1205            1000
+....csd-keyboard     1207            1000
+....csd-xrandr       1210            1000
+....csd-housekeepin  1213            1000
+....csd-a11y-settin  1215            1000
+....csd-background   1216            1000
+....cinnamon-launch  1342            1000
+.....cinnamon        1355            1000
+......nemo           1530            1000
+.......xed           2380            1000
+......thunderbird    1751            1000
+.......Web Content   1837            1000
+......firefox        1952            1000
+.......Web Content   1997            1000
+.......WebExtensions 2037            1000
+.......Web Content   2082            1000
+.......Web Content   2202            1000
+....blueberry-obex-  1366            1000
+....polkit-gnome-au  1368            1000
+....nemo-desktop     1373            1000
+....nm-applet        1374            1000
+....cinnamon-killer  1380            1000
+....applet.py        1504            1000
+.agetty              991
+.systemd             1005            1000
+..(sd-pam)           1006            1000
+..dbus-daemon        1032            1000
+..gvfsd              1129            1000
+...gvfsd-trash       1496            1000
+..gvfsd-fuse         1134            1000
+..at-spi-bus-laun    1143            1000
+...dbus-daemon       1148            1000
+..at-spi2-registr    1150            1000
+..cinnamon-screen    1153            1000
+..gvfs-udisks2-vo    1238            1000
+..gvfs-mtp-volume    1252            1000
+..gvfs-gphoto2-vo    1257            1000
+..gvfs-goa-volume    1263            1000
+..goa-daemon         1268            1000
+..goa-identity-se    1311            1000
+..gvfs-afc-volume    1320            1000
+..dconf-service      1347            1000
+..obexd              1425            1000
+..gvfsd-metadata     1517            1000
+..gnome-terminal-    1564            1000
+...bash              1571            1000
+....sudo             2388
+.....insmod          2389
+..xdg-desktop-por    1779            1000
+...sh                1797            1000
+....pxgsettings      1798            1000
+..xdg-document-po    1783            1000
+..xdg-permission-    1786            1000
+..xdg-desktop-por    1802            1000
+.VBoxClient          1084            1000
+..VBoxClient         1085            1000
+.VBoxClient          1096            1000
+..VBoxClient         1097            1000
+.VBoxClient          1102            1000
+..VBoxClient         1103            1000
+.VBoxClient          1110            1000
+..VBoxClient         1111            1000
+.gnome-keyring-d     1168            1000
+.rtkit-daemon        1231            108
+.pulseaudio          1230            1000
+.colord              1265            117
+.upowerd             1279
+.csd-printer         1308            1000
+.mintUpdate          1484            1000
+.mintreport-tray     1522            1000
+.cupsd               1666
+..dbus               1671            7
+.cups-browsed        1668
+[kthreadd]           2
+.[rcu_gp]            3
+.[rcu_par_gp]        4
+.[kworker/0:0H]      6
+.[mm_percpu_wq]      8
+.[ksoftirqd/0]       9
+.[rcu_sched]         10
+.[migration/0]       11
+.[idle_inject/0]     12
+.[kworker/0:1]       13
+.[cpuhp/0]           14
+.[kdevtmpfs]         15
+.[netns]             16
+.[rcu_tasks_kthre]   17
+.[kauditd]           18
+.[khungtaskd]        19
+.[oom_reaper]        20
+.[writeback]         21
+.[kcompactd0]        22
+.[ksmd]              23
+.[khugepaged]        24
+.[crypto]            25
+.[kintegrityd]       26
+.[kblockd]           27
+.[tpm_dev_wq]        28
+.[ata_sff]           29
+.[md]                30
+.[edac-poller]       31
+.[devfreq_wq]        32
+.[watchdogd]         33
+.[kswapd0]           37
+.[kworker/u3:0]      38
+.[ecryptfs-kthrea]   39
+.[kthrotld]          128
+.[acpi_thermal_pm]   129
+.[scsi_eh_0]         131
+.[scsi_tmf_0]        132
+.[scsi_eh_1]         133
+.[scsi_tmf_1]        134
+.[kworker/u2:3]      135
+.[ipv6_addrconf]     136
+.[kstrp]             148
+.[kworker/0:2]       154
+.[charger_manager]   168
+.[scsi_eh_2]         215
+.[scsi_tmf_2]        216
+.[irq/18-vmwgfx]     218
+.[ttm_swap]          219
+.[kworker/0:1H]      221
+.[jbd2/sda1-8]       324
+.[ext4-rsv-conver]   325
+.[iprt-VBoxWQueue]   637
+.[kworker/u2:0]      1951
+.[kworker/u2:1]      2277

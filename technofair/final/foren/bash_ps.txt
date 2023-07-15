@@ -1,0 +1,346 @@
+Pid      Name                 Command Time                   Command
+-------- -------------------- ------------------------------ -------
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo chmod 755 memory.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   wget https://i.imgflip.com/7rofq1.jpg
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   XDG_DATA_DIRS=/usr/share/cinnamon:/usr/share/gnome:/home/udin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ??b??U
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f memory.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_find_file -i 0xffff9da23bf780e8 -O global-messages-db.sqlite
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ??b??U
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f memory.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_enumerate_files | grep thunderbird
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   git clone https://github.com/504ensicsLabs/LiME.git
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ?bt??U
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   04x??U
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f memory.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_enumerate_files | grep jpg
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   du -sh memory.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   file capture.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd mydir/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   wget https://i.imgflip.com/7rofq1.jpg
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd LiME/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.raw --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_bash
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   make
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   make
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   dd if=/dev/fmem of=../capture.raw bs=1MB count=1024
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_bash
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_enumerate_files | grep jpg
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_enumerate_files | grep thunderbir
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm 7rofq1.jpg
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f memory.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_pstree
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd fmem/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   file global-messages-db.sqlite
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ../../Downloads/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo zip Ubuntu_5.0.0-32-generic.zip module.dwarf /boot/System.map-5.0.0-32-generic
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   mv Ubuntu_5.0.0-32-generic.zip ../../volatility/plugins/overlays/linux/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f memory.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_bash
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm memory.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_enumerate_files | grep thunderbird
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_find_file -i 0xffff917df7704d90 -O global-messages-db.sqlite
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo dd if=/dev/fmem of=../capture.raw bs=1MB count=1024
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo chmod +x captured.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo chmod 755 captured.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f captured.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_enumerate_files | grep Download
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd mydir/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano parser.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rcat vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cat vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano parser.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python3 parser.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   git clone https://github.com/mdegrazia/Thunderbird-Email-Parser
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd Thunderbird-Email-Parser/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls ../
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cp ../global-messages-db.sqlite /media/sf_ShareFolderVBOX/mEmPhish/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cat thunderbird.txt
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f captured.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_fiind_file -i 0xffff917df760bbf8 -O report
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f captured.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_find_file -i 0xffff917df760bbf8 -O report
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   file report
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm capture.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm global-messages-db.sqlite INBOX.msf
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo mv /media/sf_ShareFolderVBOX/mEmPhish/philip-2.raw.zip .
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo mv /media/sf_ShareFolderVBOX/mEmPhish/Phillip.zip .
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   mv Phillip.zip volatility/volatility/plugins/overlays/linux/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   unzip philip-2.raw.zip
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 -m pip install distorm3
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   pip install distorm3
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f memory.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_bash
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   uname -r
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm capture.raw
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo ./run.sh
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd src/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   du -sh memory.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo chmod 755 capture.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py --plugins=custom --profile=LinuxPhillipx64 -f philip-2.raw linux_lsof -p 2084
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py --plugins=custom --profile=LinuxPhillipx64 -f philip-2.raw linux_find_file -i 0xffff95f1c54f8000 -O global-messages-db.sqlite
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   file global-messages-db.sqlite
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   mv global-messages-db.sqlite /media/sf_ShareFolderVBOX/mEmPhish/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py --plugins=custom --profile=LinuxPhillipx64 -f philip-2.raw linux_enumerate_files | grep thunderbird
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py --plugins=custom --profile=LinuxPhillipx64 -f philip-2.raw linux_find_file -i 0xffff95f1d649e5b0 -O global-messages-db.sqlite
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   file global-messages-db.sqlite
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   mv global-messages-db.sqlite /media/sf_ShareFolderVBOX/mEmPhish/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd mydir/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   fi;e report
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   file report
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm report
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   mkdir -p cow/lubuntu/.thunderbird/rgah6ny2.default-release
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   mv cow/lubuntu/.thunderbird/rgah6ny2.default-release/ cow/lubuntu/.thunderbird/hlza10kp.default
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f philip-2.raw --profile=Linuxphillipx64 linux_enumerate_file | grep thunderbird > tb.txt
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f philip-2.raw --profile=Linuxphillipx64 linux_enumerate_files | grep thunderbird > tb.txt
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f philip-2.raw --profile=LinuxPhillipx64 linux_enumerate_files | grep thunderbird > tb.txt
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cat tb.txt
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python3 vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python3 vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python3 vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm -rf cow
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f philip-2.raw --profile=LinuxPhillipx64 linux_find_file -i 0xffff95f1f02473c0 -O local/INBOX
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f philip-2.raw --profile=LinuxPhillipx64 linux_find_file -i 0xffff95f1f0246e20 -O local/INBOX.msf
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   file local/INBOX
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cp local/ /media/sf_ShareFolderVBOX/mEmPhish/             illipx64 linux_find_file -i 0xffff95f1f02473c0 -O local/INBOX
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd mydir/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f philip-2.raw liux_banner
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f philip-2.raw linux_banner
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f philip-2.raw --profile=LinuxPhilipx64 linux_banner
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f philip-2.raw --profile=LinuxPhillipx64 linux_banner
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd mydir/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm thunderbird.txt tb.txt
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd LiME/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd src/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../capture.mem format=lime"
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../capture.mem format=lime"
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm ../../capture.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../capture.mem format=lime"
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   make
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../capture.mem format=lime"
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls ../../
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../capture.mem format=lime"
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../capturee.mem format=lime"
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo rmmod conflicting_module
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   lsmod | grep lime
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo rmmod lime
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo rmmod conflicting_module
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   lsmod | grep lime
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../capture.mem format=lime"
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo chmod 755 capture.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py --info | grep linux
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py --info | more
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_enumerate_files | grep secure
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_pstree
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_lsof -p 1873
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd mydir/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   wget wget https://github.com/microsoft/avml/releases/download/v0.11.4/avml
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f memory.mem --profile=
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   wget https://i.imgflip.com/7rofq1.jpg
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo chmod +x avml
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py --info | more
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm 7rofq1.jpg
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo adduser $(whoami) vboxsf
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo apt update
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../capture.mem format=lime"
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo apt install gcc make dwarfdump zip
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 -m pip install distorm3
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   mkdir -p cow/udin/.thunderbird
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm -rf cow/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm memory.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f memory.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_bash
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   file global-messages-db.sqlite
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   mkdir mydir
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_enumerate_files | grep thunderbird > thunderbird.txt
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   strings global-messages-db.sqlite
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cat thunderbird.txt
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_find_file -i 0xffff917df77066e0 -O INBOX.msf
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   file INBOX.msf
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cat INBOX.msf
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cp INBOX.msf /media/sf_ShareFolderVBOX/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   mkdir -p cow/cat vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   git clone https://github.com/504ensicsLabs/LiME.git
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd mydir/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm memory.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   git clone https://github.com/NateBrune/fmem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo chmod +x memory.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   du -sh capture.raw
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo chmod +x capture.raw
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cat vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_enumerate_files
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_enumerate_files | grep Download
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py -f capture.mem --profile=LinuxUbuntu_5_0_0-32-genericx64 linux_bash
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls /
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cat vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd mydir/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo ./avml memory.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd LiME/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd src/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   git clone https://github.com/volatilityfoundation/volatility
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo chmod +x capture.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo chmod 755 avml
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd mydir/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd volatility/tools/linux/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo apt install -y build-essential linux-headers-$(uname -r)
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo apt install python-pip
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd src/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo apt install virtualbox-guest-utils
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../memory.mem format=raw"
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo apt install git zip
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../memory.mem format=raw"
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   make
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   make
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd LiME/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls /dev/fmem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python3 vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   exit
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd mydir/LiME/src/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../captured.mem format=lime"
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   du -sh ../../captured.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   file global-messages-db.sqlite
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo chmod 755 capture.raw
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   du -sh capture.mem
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   touch vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd Downloads/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python3 vol_file_parse.py -d "/cow/lubuntu/.thunderbird/rgah6ny2" -O report
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python3 vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 volatility/vol.py --info | more
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd mydir/
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cat vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python3 vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   nano vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python3 vol_file_parse.py
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   clear
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   mkdir -p /cow/udin/.thunderbird
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo mkdir -p /cow/udin/.thunderbird
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls /
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   rm -rf /cow
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   sudo rm -rf /cow
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   ls
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python2 vol_file_parse.py -d "/cow/lubuntu/.thunderbird/rgah6ny2" -o report
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   python3 vol_file_parse.py -d "/cow/lubuntu/.thunderbird/rgah6ny2" -o report
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd ..
+    1571 bash                 2023-07-14 18:40:56 UTC+0000   cd /home/udin/Downloads/
+    1571 bash                 2023-07-14 18:41:06 UTC+0000   cd mydir/
+    1571 bash                 2023-07-14 18:41:07 UTC+0000   dir
+    1571 bash                 2023-07-14 18:46:47 UTC+0000   cd LiME/
+    1571 bash                 2023-07-14 18:46:48 UTC+0000   dir
+    1571 bash                 2023-07-14 18:46:51 UTC+0000   cd src/
+    1571 bash                 2023-07-14 18:46:53 UTC+0000   dir
+    1571 bash                 2023-07-14 18:57:59 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path../../capture.mem format=lime"
+    1571 bash                 2023-07-14 18:58:17 UTC+0000   SH??HH??t????H??[????D
+    1571 bash                 2023-07-14 18:58:17 UTC+0000   0
+    1571 bash                 2023-07-14 18:58:17 UTC+0000   sudo rmmod lime
+    1571 bash                 2023-07-14 18:58:51 UTC+0000   lsmof | grep lime
+    1571 bash                 2023-07-14 18:59:04 UTC+0000   lsmod | grep lime
+    1571 bash                 2023-07-14 18:59:15 UTC+0000   lsof | grep lime
+    1571 bash                 2023-07-14 19:01:06 UTC+0000   sudo insmod ./lime-5.0.0-32-generic.ko "path=../../capture.mem format=lime"

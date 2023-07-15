@@ -1,0 +1,16 @@
+Volatility Foundation Volatility Framework 2.6.1
+Pid    Uid    Gid    Arguments
+1751   1000   1000   /usr/lib/thunderbird/thunderbird
+1786   1000   1000   /usr/libexec/xdg-permission-store
+1797   1000   1000   sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.14/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+1798   1000   1000   /usr/lib/x86_64-linux-gnu/libproxy/0.4.14/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+1802   1000   1000   /usr/libexec/xdg-desktop-portal-gtk
+1837   1000   1000   /usr/lib/thunderbird/thunderbird -contentproc -childID 1 -isForBrowser -prefsLen 11454 -prefMapSize 233569 -jsInitLen 277276 -parentBuildID 20230503190012 -appDir /usr/lib/thunderbird 1751 true tab
+1951   0      0      [kworker/u2:0]
+1952   1000   1000   /usr/lib/firefox/firefox
+1997   1000   1000   /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 206936 -parentBuildID 20191210124657 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1952 true tab
+2037   1000   1000   /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6268 -prefMapSize 206936 -parentBuildID 20191210124657 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1952 true tab
+2082   1000   1000   /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6268 -prefMapSize 206936 -parentBuildID 20191210124657 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1952 true tab
+2202   1000   1000   /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 8142 -prefMapSize 206936 -parentBuildID 20191210124657 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 1952 true tab
+2277   0      0      [kworker/u2:1]
+2380   1000   1000   xed /home/udin/Downloads/Secure Your DeliverBox Online Key.eml

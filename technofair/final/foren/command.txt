@@ -1,0 +1,118 @@
+Options:
+  -h, --help            list all available options and their default values.
+                        Default values may be set in the configuration file
+                        (/etc/volatilityrc)
+  --conf-file=/home/gawrgare/.volatilityrc
+                        User based configuration file
+  -d, --debug           Debug volatility
+  --plugins=PLUGINS     Additional plugin directories to use (colon separated)
+  --info                Print information about all registered objects
+  --cache-directory=/home/gawrgare/.cache/volatility
+                        Directory where cache files are stored
+  --cache               Use caching
+  --tz=TZ               Sets the (Olson) timezone for displaying timestamps
+                        using pytz (if installed) or tzset
+  -f FILENAME, --filename=FILENAME
+                        Filename to use when opening an image
+  --profile=LinuxUbuntu_5_0_0-32-genericx64
+                        Name of the profile to load (use --info to see a list
+                        of supported profiles)
+  -l file:///mnt/d/Coding/CTFs/technofair/final/foren/Case/capture.mem, --location=file:///mnt/d/Coding/CTFs/technofair/final/foren/Case/capture.mem
+                        A URN location from which to load an address space
+  -w, --write           Enable write support
+  --dtb=DTB             DTB Address
+  --output=text         Output in this format (support is module specific, see
+                        the Module Output Options below)
+  --output-file=OUTPUT_FILE
+                        Write output in this file
+  -v, --verbose         Verbose information
+  --shift=SHIFT         Mac KASLR shift address
+  --physical_shift=PHYSICAL_SHIFT
+                        Linux kernel physical shift address
+  --virtual_shift=VIRTUAL_SHIFT
+                        Linux kernel virtual shift address
+  -g KDBG, --kdbg=KDBG  Specify a KDBG virtual address (Note: for 64-bit
+                        Windows 8 and above this is the address of
+                        KdCopyDataBlock)
+  --force               Force utilization of suspect profile
+  -k KPCR, --kpcr=KPCR  Specify a specific KPCR address
+  --cookie=COOKIE       Specify the address of nt!ObHeaderCookie (valid for
+                        Windows 10 only)
+
+        Supported Plugin Commands:
+
+                imagecopy       Copies a physical address space out as a raw DD image
+                limeinfo        Dump Lime file format information
+                linux_apihooks  Checks for userland apihooks
+                linux_arp       Print the ARP table
+                linux_aslr_shift        Automatically detect the Linux ASLR shift
+                linux_banner    Prints the Linux banner information
+                linux_bash      Recover bash history from bash process memory
+                linux_bash_env  Recover a process' dynamic environment variables
+                linux_bash_hash Recover bash hash table from bash process memory
+                linux_check_afinfo      Verifies the operation function pointers of network protocols
+                linux_check_creds       Checks if any processes are sharing credential structures
+                linux_check_fop Check file operation structures for rootkit modifications
+                linux_check_idt Checks if the IDT has been altered
+                linux_check_inline_kernel       Check for inline kernel hooks
+                linux_check_modules     Compares module list to sysfs info, if available
+                linux_check_syscall     Checks if the system call table has been altered
+                linux_check_tty Checks tty devices for hooks
+                linux_cpuinfo   Prints info about each active processor
+                linux_dentry_cache      Gather files from the dentry cache
+                linux_dmesg     Gather dmesg buffer
+                linux_dump_map  Writes selected memory mappings to disk
+                linux_dynamic_env       Recover a process' dynamic environment variables
+                linux_elfs      Find ELF binaries in process mappings
+                linux_enumerate_files   Lists files referenced by the filesystem cache
+                linux_find_file Lists and recovers files from memory
+                linux_getcwd    Lists current working directory of each process
+                linux_hidden_modules    Carves memory to find hidden kernel modules
+                linux_ifconfig  Gathers active interfaces
+                linux_info_regs It's like 'info registers' in GDB. It prints out all the
+                linux_iomem     Provides output similar to /proc/iomem
+                linux_kernel_opened_files       Lists files that are opened from within the kernel
+                linux_keyboard_notifiers        Parses the keyboard notifier call chain
+                linux_ldrmodules        Compares the output of proc maps with the list of libraries from libdl
+                linux_library_list      Lists libraries loaded into a process
+                linux_librarydump       Dumps shared libraries in process memory to disk
+                linux_list_raw  List applications with promiscuous sockets
+                linux_lsmod     Gather loaded kernel modules
+                linux_lsof      Lists file descriptors and their path
+                linux_malfind   Looks for suspicious process mappings
+                linux_memmap    Dumps the memory map for linux tasks
+                linux_moddump   Extract loaded kernel modules
+                linux_mount     Gather mounted fs/devices
+                linux_mount_cache       Gather mounted fs/devices from kmem_cache
+                linux_netfilter Lists Netfilter hooks
+                linux_netscan   Carves for network connection structures
+                linux_netstat   Lists open sockets
+                linux_pidhashtable      Enumerates processes through the PID hash table
+                linux_pkt_queues        Writes per-process packet queues out to disk
+                linux_plthook   Scan ELF binaries' PLT for hooks to non-NEEDED images
+                linux_proc_maps Gathers process memory maps
+                linux_proc_maps_rb      Gathers process maps for linux through the mappings red-black tree
+                linux_procdump  Dumps a process's executable image to disk
+                linux_process_hollow    Checks for signs of process hollowing
+                linux_psaux     Gathers processes along with full command line and start time
+                linux_psenv     Gathers processes along with their static environment variables
+                linux_pslist    Gather active tasks by walking the task_struct->task list
+                linux_pslist_cache      Gather tasks from the kmem_cache
+                linux_psscan    Scan physical memory for processes
+                linux_pstree    Shows the parent/child relationship between processes
+                linux_psxview   Find hidden processes with various process listings
+                linux_recover_filesystem        Recovers the entire cached file system from memory
+                linux_route_cache       Recovers the routing cache from memory
+                linux_sk_buff_cache     Recovers packets from the sk_buff kmem_cache
+                linux_slabinfo  Mimics /proc/slabinfo on a running machine
+                linux_strings   Match physical offsets to virtual addresses (may take a while, VERY verbose)
+                linux_threads   Prints threads of processes
+                linux_tmpfs     Recovers tmpfs filesystems from memory
+                linux_truecrypt_passphrase      Recovers cached Truecrypt passphrases
+                linux_vma_cache Gather VMAs from the vm_area_struct cache
+                linux_volshell  Shell in the memory image
+                linux_yarascan  A shell in the Linux memory image
+                mbrparser       Scans for and parses potential Master Boot Records (MBRs)
+                patcher         Patches memory based on page scans
+                raw2dmp         Converts a physical memory sample to a windbg crash dump
+                vmwareinfo      Dump VMware VMSS/VMSN information
