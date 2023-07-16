@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  node:
+    build:
+      context: .
+    restart: unless-stopped
+    ports:
+      - "0.0.0.0:1337:1337"

