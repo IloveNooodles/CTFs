@@ -1,8 +1,9 @@
-from Crypto.Util.number import GCD, getStrongPrime, bytes_to_long
-from sympy import nextprime
-from random import choice
-from secret import FLAG
 import os
+from random import choice
+
+from Cryptodome.Util.number import GCD, bytes_to_long, getStrongPrime
+from sympy import nextprime
+
 
 def modeA():
     n = getStrongPrime(1024)
@@ -29,7 +30,7 @@ def setup():
 
 def main():
     print('Starting session.')
-    flag = FLAG
+    flag = "TEST FLAG"
     stages = 100
     modes = ['A', 'B', 'C']
     for i in range(stages):
@@ -73,3 +74,13 @@ if __name__ == '__main__':
         main()
     except:
         print('An error has occured.')
+
+'''
+ed = 1 mod n
+d = e^-1 mod tot n
+
+c = pow(m, e, n)
+
+
+d = pow(c, d, totN)
+'''
