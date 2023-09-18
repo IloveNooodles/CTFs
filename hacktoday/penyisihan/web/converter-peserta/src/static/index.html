@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP4 to MP3 Converter</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include your custom style.css -->
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">MP4 to MP3 Converter</h1>
+        <form action="/convert" method="POST" enctype="multipart/form-data" class="mt-4">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="video" name="video" accept=".mp4" required onchange="updateLabel()">
+                <label class="custom-file-label" for="video">Select an MP4 video to convert</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Convert</button>
+        </form>
+    </div>
+    <script>
+        function updateLabel() {
+            const fileInput = document.getElementById('video');
+            const label = fileInput.nextElementSibling;
+            
+            if (fileInput.files.length > 0) {
+                label.textContent = fileInput.files[0].name;
+            } else {
+                label.textContent = 'Select an MP4 video to convert';
+            }
+        }
+    </script>
+        
+</body>
+</html>

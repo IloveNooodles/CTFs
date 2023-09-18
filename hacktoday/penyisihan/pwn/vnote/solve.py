@@ -105,7 +105,6 @@ payload = flat({
     p64(poprbpret),
     p64(private_buffer),
     p64(leaveret),
-    p64(private_buffer+8)
   ]
 })
 sla(b"note: ", payload)

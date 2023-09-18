@@ -1,0 +1,42 @@
+/* style.css */
+body {
+    background-color: #1f2d3d;
+    color: #fff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Select MP4 Video';
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.custom-file-input:hover::before {
+    border-color: #aaa;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.custom-file-input:focus::before {
+    border-color: #aaa;
+}
