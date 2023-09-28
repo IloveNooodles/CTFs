@@ -1,3 +1,5 @@
+#!/usr/bin/python 
+
 from pwn import *
 
 # Pass the nc hostname port
