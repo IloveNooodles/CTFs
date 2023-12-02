@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  php:
+    build: .
+    security_opt:
+      - seccomp:seccomp.json
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./web/:/var/www/html
+    ports:
+      - "80:80"
+    depends_on:
+      - php
+    restart: always
