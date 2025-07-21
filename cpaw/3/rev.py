@@ -1,0 +1,21 @@
+arr = [0 for _ in range(29)]
+arr[0] = 0x7A
+arr[1] = 0x69
+arr[2] = 0x78
+arr[3] = 0x6E
+arr[4] = 0x62
+arr[5] = 0x6F
+arr[6] = 0x7C
+arr[7] = 0x6B
+arr[8] = 0x77
+arr[9] = 0x78
+arr[10] = 0x74
+arr[0xB] = 0x38
+arr[0xC] = 0x38
+arr[0xD] = 100
+
+for j in range(15):
+    arr[j + 0xE] = arr[j] ^ 0x19
+
+mapped = [chr(p) for p in arr]
+print("".join(mapped[14:]))
