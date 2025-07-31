@@ -1,0 +1,14 @@
+version: '3'
+services:
+  pet_name:
+    build:
+      context: .
+    restart: alwayss
+    working_dir: /home/pwn
+    container_name: pet_name
+    ulimits:
+      nproc: 65535
+      core: 0
+    ports:
+      - "9080:9000"
+    entrypoint: /etc/init.sh

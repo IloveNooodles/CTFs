@@ -1,0 +1,21 @@
+# ネットワークインターフェイスの都合で、 Linux ホストの Docker 環境にのみ対応しています
+# MacOS/Windows など、他の環境では QEMU などによる仮想化 Linux 上の Docker 環境を用意して実行してください
+
+name: chamber-of-echos
+
+services:
+  app:
+    build: .
+    container_name: chamber-of-echos.app
+    command:
+      # NOTE: 自身の環境のネットワークインターフェイス名に合わせて変更してください
+      - "lo"
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    environment:
+      TZ: "Asia/Tokyo"
+      FLAG: "ctf4b{this_is_dummy_flag}"
+    # NOTE: TCP/UDP は使用しないので、 ports は定義していません
+    restart: always

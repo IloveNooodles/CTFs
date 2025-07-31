@@ -1,0 +1,7 @@
+services:
+  pivot4b:
+    build: .
+    ports:
+      - 12300:5000
+    privileged: true
+    restart: unless-stopped
